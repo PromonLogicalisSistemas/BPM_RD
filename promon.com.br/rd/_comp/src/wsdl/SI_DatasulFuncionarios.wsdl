@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/FundacaoEnviarFuncionarios" xmlns:p2="urn:totvs:ws1:fundacao:wsFundacaoPromon" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SI_DatasulFuncionarios" targetNamespace="http://promon.com.br/FundacaoEnviarFuncionarios">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>b0a0343fa2b111e7a8d90000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1506427231577"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="86de448c9e2b3037aa858c17c7f4d96c"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="SI_DatasulFuncionarios">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState>R</objectState>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="MT_FPPSServicoEnviarFuncionariosRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">MT_FPPSServicoEnviarFuncionariosRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/FundacaoEnviarFuncionarios</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/FundacaoEnviarFuncionarios</ifw:technicalNamespace>
+        <ifw:VersionID>a2190c0b967a11e7a59e0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/FundacaoEnviarFuncionarios</ifw:xmlNamespace>
+        <ifw:dataType name="FPPSServicoEnviarFuncionarios" namespace="http://promon.com.br/FundacaoEnviarFuncionarios" swcvId="4183bc706c7711e7c6a0c72b0a37be44" uri="name=FPPSServicoEnviarFuncionarios~namespace=http://promon.com.br/FundacaoEnviarFuncionarios~swcvId=4183bc706c7711e7c6a0c72b0a37be44"/>
+      </ifw:message>
+      <ifw:message name="wsFundacaoPromon">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">wsFundacaoPromon</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/FundacaoEnviarFuncionarios</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/FundacaoEnviarFuncionarios</ifw:technicalNamespace>
+        <ifw:VersionID>52889da4a31a11e794260000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>urn:totvs:ws1:fundacao:wsFundacaoPromon</ifw:xmlNamespace>
+        <ifw:dataType name="DatasulFuncionarios" namespace="http://promon.com.br/FundacaoEnviarFuncionarios" swcvId="4183bc706c7711e7c6a0c72b0a37be44" uri="name=DatasulFuncionarios~namespace=http://promon.com.br/FundacaoEnviarFuncionarios~swcvId=4183bc706c7711e7c6a0c72b0a37be44"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>4183bc706c7711e7c6a0c72b0a37be44</ifw:guid>
+        <ifw:name>FUNDACAO, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_86de448c9e2b3037aa858c17c7f4d96c_ifmmessif</name>
+        <namespace>http://promon.com.br/FundacaoEnviarFuncionarios</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_SI_DatasulFuncionarios"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://promon.com.br/FundacaoEnviarFuncionarios" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/FundacaoEnviarFuncionarios">
+      <xsd:element name="MT_FPPSServicoEnviarFuncionariosRequest" type="FPPSServicoEnviarFuncionarios"/>
+      <xsd:simpleType name="DatasulFuncionarios">
+        <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <xsd:complexType name="FPPSServicoEnviarFuncionarios">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="UsuarioWS" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="SenhaWS" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="dadosFuncionariosCSV" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="urn:totvs:ws1:fundacao:wsFundacaoPromon" xmlns:p17="http://promon.com.br/FundacaoEnviarFuncionarios" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:totvs:ws1:fundacao:wsFundacaoPromon">
+      <xsd:import namespace="http://promon.com.br/FundacaoEnviarFuncionarios"/>
+      <xsd:element name="wsFundacaoPromon" type="p17:DatasulFuncionarios"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="wsFundacaoPromon">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:wsFundacaoPromon" name="wsFundacaoPromon"/>
+  </wsdl:message>
+  <wsdl:message name="MT_FPPSServicoEnviarFuncionariosRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:MT_FPPSServicoEnviarFuncionariosRequest" name="MT_FPPSServicoEnviarFuncionariosRequest"/>
+  </wsdl:message>
+  <wsdl:portType name="SI_DatasulFuncionarios">
+    <wsdl:documentation/>
+    <wsdl:operation name="SI_DatasulFuncionarios">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_DatasulFuncionarios"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:wsFundacaoPromon"/>
+      <wsdl:output message="p1:MT_FPPSServicoEnviarFuncionariosRequest"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_DatasulFuncionariosBinding" type="p1:SI_DatasulFuncionarios">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SI_DatasulFuncionarios">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/glx/ide' i='1' v='2.0.0'/>
+<C n='sap.com/tc/esmp/model/xsd1' i='2' v='1.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='3' v='2.0.0'/>
+<C n='sap.com/tc/moin/util' i='4' v='1.0.0'/>
+<M c='2' q='XSD1.XsdComplexTypeDefinition' i='469C6D4001D5DA3CD6A340A7386DB365661C1178' ova='attributes'/>
+<M c='2' q='XSD1.XsdModelGroup' i='469C6D4007F20F8124A0489617CEAAA4FC3F33B2' ova='attributes'/>
+<M c='2' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='2' q='XSD1.dom.ChildsOfDomNode' i='469C6D40613622D8441C441A26178D080838F852' se='1' ce='1' oe='0'/>
+<M c='2' q='XSD1.key.QName' i='469C6D40679C1DE1F8EA4FE11855D305A69C2810'/>
+<M c='2' q='XSD1.dom.DomText' i='469C6D407EF59150AAB5477F1D8B918A40FEB328'/>
+<M c='2' q='XSD1.dom.DomAttribute' i='469C6D408272B53D2AC84E6D0570A7CA49DC813B'/>
+<M c='2' q='XSD1.XsdParticle' i='469C6D4085546763E30A4AD433C8EC4CA6CDE116' ova='attributes'/>
+<M c='2' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='2' q='XSD1.ContentForParticle' i='469C6D4098BBD57540A74F522A7BCCBAA2B5A8C3' se='0' ce='0' oe='-1'/>
+<M c='2' q='XSD1.ContentForComplexTypeDefinition' i='469C6D40ABCACE61F92C445C0CBA9A980D1E9C13' se='0' ce='0' oe='-1'/>
+<M c='2' q='XSD1.BaseTypeDefinitionForComplexTypeDefinition' i='469C6D40DE39D6DC759E49DD25E18652EE32DB38' se='0' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.AutomatedActivity' i='46F2595C9C343BC2676C11DCC370001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.StartEvent' i='46F2595C9C343BC4676C11DCAF03001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.EndEvent' i='46F2595C9C343BC7676C11DC91F3001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.SequenceConnector' i='46F2595C9C3685B5676C11DCC52A001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.Lane' i='46F2595C9C38F6A9676C11DCC39E001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.Pool' i='46F2595C9C38F6AF676C11DCA309001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.DataObject' i='46F2595C9C38F6BB676C11DC8B8C001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.SourceOfIncomingConnectors' i='46F2595C9C40229A676C11DC987E001321CBD1B1' se='0' ce='-1' oe='1'/>
+<M c='1' q='Galaxy.Workflow.TargetOfOutgoingConnectors' i='46F2595D9C429390676C11DCA715001321CBD1B1' se='0' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.InputMappingOfMappableObject' i='46F2595D9C4293A5676C11DC9722001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.OutputMappingOfMappableObject' i='46F2595D9C4293A8676C11DC989D001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.Mapping' i='46F2595D9C50C467676C11DC86D5001321CBD1B1'/>
+<M c='1' q='Galaxy.Mapping.MappingPart' i='46F2595D9C50C46D676C11DCB3E6001321CBD1B1'/>
+<M c='1' q='Galaxy.Mapping.MappingContainsMappingParts' i='46F2595D9C50C471676C11DC818B001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Mapping.MappingPartContainsExpression' i='46F2595D9C50C474676C11DCCC94001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasChildren' i='46F2595D9C50C477676C11DC8D58001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasTarget' i='46F2595D9C50C47A676C11DC9E55001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.Expression' i='46F2595D9C50C47E676C11DCCC45001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.Literal' i='46F2595D9C533562676C11DCAB37001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.Reference' i='46F2595D9C53356C676C11DCC4CF001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocation' i='46F2595D9C533572676C11DC93A9001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.LiteralHasSimpleDataType' i='46F2595D9C53357C676C11DCAA3E001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.ExpressionHasSteps' i='46F2595D9C55A661676C11DC8524001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Rule.ReferencePointToXsdFeature' i='46F2595D9C55A667676C11DCC2A6001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocationHasParameterMapping' i='46F2595D9C55A66D676C11DCC7B9001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ProcessRole' i='46FB5931CCE777636CC911DC9732001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.LaneHasScopeObjects' i='470236D16D5A01C270E111DCC009001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ScopeContainsScopeObjects' i='470236D16D5A01C570E111DCA61B001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.TextVariable' i='470C8B047DB49570770911DCA4C8001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.LaneProcessRole' i='470C8B047DB49577770911DC939F001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.ViewContainsMapping' i='470C8B047DBBC162770911DCB593001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.Collaboration' i='47B949B5451A9AD4DE0011DCBE75001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.CollaborationContainsPools' i='47B949B5452681B2DE0011DCC0D3001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ActivityHasOperation' i='47B949B5452B3CA3DE0011DCB00A001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.CatchEventContainsExpression' i='47BEE014D66DE12BE15411DCAAAC001321CBD1B1' se='0' ce='0' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.AutomatedActivityHasServiceReference' i='47BEE014D6705231E15411DCABEE001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocationHasFunctionInterface' i='47BEE014D680F3FAE15411DC9C2B001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.CatchEventHasTrigger' i='47C2BAF30EC280A5E3A111DC9D40001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration' i='47C2D91202E622C2E3B311DCC680001558C33B4F' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.NSPrefix' i='48E1FDC69CCEF8458ED911DDC75D0019993D0295'/>
+<M c='1' q='Galaxy.Mapping.MappingContainsNamespacePrefixes' i='48E1FDC69CD3B3308ED911DDA85D0019993D0295' se='1' ce='1' oe='-1'/>
+<M c='4' q='properties.PropertyBag' i='493E63563C546320C5EC11DD9396001999375840'/>
+<M c='1' q='Galaxy.Mapping.MappingPartConfiguration' i='E0632E0103EF6C1C83C911E184D1002710AA9C90'/>
+<M c='1' q='Galaxy.Mapping.MappingPartContainsConfiguration' i='E0632E0103EFEA6083C911E1C94F002710AA9C90' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasQName' i='E0632E015719E9D44FC011E093177A79EC170605' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.ReferenceHasQName' i='E0632E01C0C0676B4FC511E0B0627A79EC170605' se='1' ce='1' oe='-1'/>
+<Galaxy.Mapping.NSPrefix m:c='1' m:i='E024BA4E35A2995BC7D811E6952700059A3C7A00' prefix='xsd' namespace='http://www.w3.org/2001/XMLSchema'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E024BA4E35A2995CC7D811E6938700059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E024BA4E35A2995DC7D811E6C2E300059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E024BA4E35A2E267C7D811E6BC0D00059A3C7A00' stringExpression='StartCustoProfissional'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E024BA4E35A2E268C7D811E68B2A00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E024BA4E35A2EC44C7D811E6939B00059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E024BA4E35A2EC45C7D811E6A64A00059A3C7A00' namespace='http://promon.com.br/CustoProfissionalStart/' name='StartCustoProfissional'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E024BA4E35A2EC46C7D811E6B69500059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E024BA4E35A325CDC7D811E6995600059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='dat_refer'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E024BA4E35A325CEC7D811E6AA4300059A3C7A00' stringExpression='dat_refer'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E024BA4E35A34F1FC7D811E6C9C900059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E024BA4E35A34F20C7D811E6811600059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E024BA4E35A34F21C7D811E6A71100059A3C7A00' namespace='' name='dat_refer'/>
+<XSD1.key.QName m:c='2' m:i='E04BA03499578D2AC7DC11E6A54900059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995BF06BC7DC11E68C3100059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C1A19C7DC11E680E300059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='Administrators'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C1A1AC7DC11E6C67B00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C1A1BC7DC11E68A7000059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C3C52C7DC11E6A40600059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C3C53C7DC11E6ABDF00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C3C54C7DC11E6A03E00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C71F7C7DC11E683BE00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C71F8C7DC11E681AF00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Administrators'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995C71F9C7DC11E6B7B700059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='TextVariables'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CA8A8C7DC11E6C64700059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='TextVariables'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CA8A9C7DC11E69D8700059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CA8AAC7DC11E6838800059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_PotentialOwners'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CB35BC7DC11E6B88600059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CB35CC7DC11E695AE00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='principalID'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CB35DC7DC11E6C9C800059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CD9B3C7DC11E6C9F200059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CD9B4C7DC11E6BD4B00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_ExcludedOwners'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995CD9B5C7DC11E69DA400059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D0EB0C7DC11E697E200059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_ExcludedOwners'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D0EB1C7DC11E6894000059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D0EB2C7DC11E6A94800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D3153C7DC11E6CD6800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D3154C7DC11E6853900059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D3155C7DC11E6CA7800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D6ACCC7DC11E6881D00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D6ACDC7DC11E69C6A00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D6ACEC7DC11E68FD100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D8AC8C7DC11E6AD0000059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995D8AC9C7DC11E6AF9400059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DBB14C7DC11E6960300059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DBB15C7DC11E6842800059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DBB16C7DC11E6A29700059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DC609C7DC11E6831800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DC60AC7DC11E691E200059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_PotentialOwners'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DC60BC7DC11E6996E00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DEF23C7DC11E6B18100059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995DEF24C7DC11E6A92400059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E13A8C7DC11E690AD00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E13A9C7DC11E6849600059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E13AAC7DC11E6905600059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E41FDC7DC11E6912F00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E41FEC7DC11E6A02D00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E80D1C7DC11E6B48C00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E80D2C7DC11E6843000059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995E80D3C7DC11E6C5F400059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995EA0B5C7DC11E6C91F00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995EA0B6C7DC11E6CC3E00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995EB513C7DC11E6C08400059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995EB514C7DC11E6A7C100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F1F97C7DC11E6BB4D00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F3899C7DC11E6BA1700059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F389AC7DC11E6A71900059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F389BC7DC11E6916800059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F5842C7DC11E68DB400059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F5843C7DC11E6C8C800059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F7D44C7DC11E6980300059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995F7D45C7DC11E68CCC00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FB546C7DC11E69B7300059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FB547C7DC11E6C86600059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FB548C7DC11E6AFD500059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FD362C7DC11E6C33F00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FD363C7DC11E6C06200059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FE5B5C7DC11E6B16900059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FE5B6C7DC11E6A12100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034995FE5B7C7DC11E6A68D00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960235CC7DC11E6844A00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960235DC7DC11E6B53B00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA03499603501C7DC11E6A66B00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA03499603502C7DC11E6B71B00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA03499603503C7DC11E6AE6200059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960806FC7DC11E6988E00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E04BA03499608070C7DC11E69DC800059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034996094A6C7DC11E6A56200059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034996094A7C7DC11E681BD00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA034996094A8C7DC11E6BA6900059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960C884C7DC11E6AD0F00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960C885C7DC11E6BD9100059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960E8E8C7DC11E6847600059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E04BA0349960E8E9C7DC11E69F2400059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993830C4C7DC11E6C43F00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993B87B9C7DC11E696E100059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993B973BC7DC11E6A0F600059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='Administrators'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993B973CC7DC11E6A4CE00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993B973DC7DC11E696A300059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993B973EC7DC11E6804200059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BC158C7DC11E6AAAE00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BC159C7DC11E6841700059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BC15AC7DC11E6BB6B00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BC15BC7DC11E6B17900059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Administrators'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BFFDEC7DC11E6934A00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='TextVariables'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BFFDFC7DC11E6CD3700059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='TextVariables'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BFFE0C7DC11E6B40600059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993BFFE1C7DC11E6A86C00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_PotentialOwners'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C09A0C7DC11E6CA8A00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C09A1C7DC11E6B52000059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='principalID'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C09A2C7DC11E6B98A00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C09A3C7DC11E6840000059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C09A4C7DC11E6C8C200059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_ExcludedOwners'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5003C7DC11E6993300059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5004C7DC11E6879A00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_ExcludedOwners'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5005C7DC11E69B1700059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5006C7DC11E6990A00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5B9FC7DC11E6887900059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5BA0C7DC11E6BE0D00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5BA1C7DC11E688C800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5BA2C7DC11E692B800059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C5BA3C7DC11E6C34800059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C8E76C7DC11E6AAD100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C8E77C7DC11E698D600059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C8E78C7DC11E68AE800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993C8E79C7DC11E6C06800059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CB971C7DC11E6AC0000059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CB972C7DC11E6C18A00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CB973C7DC11E6928400059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CB974C7DC11E688D000059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_PotentialOwners'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CCEABC7DC11E6839C00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CCEACC7DC11E6A7FB00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993CCEADC7DC11E6A11100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D0261C7DC11E6A6C100059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D0262C7DC11E68ADF00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D0263C7DC11E68EF300059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D3A76C7DC11E6C43C00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D3A77C7DC11E6A3CB00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D3A78C7DC11E6838500059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D3A79C7DC11E680D000059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D4D36C7DC11E6C1B500059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D4D37C7DC11E6A4AD00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D4D38C7DC11E6C03A00059A3C7A00' namespace='' name='principal'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D798FC7DC11E6AD9000059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993D7990C7DC11E68A4500059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993DF0C4C7DC11E6CFAF00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993DF0C5C7DC11E6ABD800059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E0E61C7DC11E6A7E700059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E0E62C7DC11E6C8BD00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E0E63C7DC11E6A60900059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E3D8CC7DC11E6CDA300059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E3D8DC7DC11E6955200059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E3D8EC7DC11E69CE400059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E681EC7DC11E6B0CE00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E9679C7DC11E6CAEB00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E967AC7DC11E6C6E500059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993E967BC7DC11E6C15500059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EB5DEC7DC11E6BFA700059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EB5DFC7DC11E68DB100059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EB5E0C7DC11E6A41B00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EE529C7DC11E6C5BC00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EE52AC7DC11E6907900059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EE52BC7DC11E6828E00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EF577C7DC11E6C62500059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EF578C7DC11E6A30D00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993EF579C7DC11E6C39B00059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F3CA7C7DC11E6B27400059A3C7A00' namespace='' name='type'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F3CA8C7DC11E68DF400059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F3CA9C7DC11E6A9CB00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F4A08C7DC11E6BFDB00059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F4A09C7DC11E6CCB200059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F85D9C7DC11E694AB00059A3C7A00' namespace='sap.com/bpem/glx/built-in/principal/getPrincipals' name='result'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F85DAC7DC11E6B08900059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F85DBC7DC11E6BD4100059A3C7A00' namespace='' name='principalId'/>
+<XSD1.key.QName m:c='2' m:i='E05A47DB993F9E95C7DC11E6AD5600059A3C7A00' namespace='' name='principalId'/>
+<properties.PropertyBag m:c='4' m:i='E09CFF9D9A0DD665C7D611E6CDF600059A3C7A00' id='PartitionCreationInfo'>
+<properties key='creatorId' value='com.sap.glx.ide'/>
+<properties key='creatorVersion' value='2.0.0'/>
+<properties key='OriginalDCName' value='rd'/>
+<properties key='OriginalDCVendor' value='promon.com.br'/>
+</properties.PropertyBag>
+<Galaxy.Mapping.NSPrefix m:c='1' m:i='E0C4897FE8CE6A06F49311E68ACC00059A3C7A00' prefix='xsd' namespace='http://www.w3.org/2001/XMLSchema'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8CE8FF4F49311E68BF500059A3C7A00' namespace='http://promon.com.br/CustoProfissional' name='custoProfissionalEccRequest'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8CEBA9EF49311E6C70900059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8CF074AF49311E69EB500059A3C7A00' namespace='' name='dat_refer'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8CF4BE0F49311E6922F00059A3C7A00' stringExpression='DO_CustoProfissionalContext/dat_refer'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0C4897FE8CF4BE1F49311E694DA00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8CF5F58F49311E69A3500059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8CF5F59F49311E6990E00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8CF9564F49311E6BC6000059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8CF9565F49311E6AB1D00059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='dat_refer'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8CFD513F49311E680FD00059A3C7A00' namespace='' name='custoProfissional'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8D0065FF49311E6AD1500059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8D00660F49311E685F600059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D016FEF49311E691C500059A3C7A00' namespace='' name='ttCustoColab'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8D016FFF49311E6A9F700059A3C7A00' stringExpression='DO_CustoProfissionalContext/CustoProfissional'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0C4897FE8D03F28F49311E6B03400059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8D03F29F49311E6B1E000059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D03F2AF49311E6970600059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8D06978F49311E6A50400059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D06979F49311E68C3700059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='CustoProfissional'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D08DE4F49311E6A25200059A3C7A00' namespace='' name='ttCustoColabRow'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8D0B8FAF49311E68E5F00059A3C7A00' stringExpression='CustoProfissional'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0C4897FE8D0B8FBF49311E6995F00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8D0B8FCF49311E6BCE900059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D0B8FDF49311E6A9FA00059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='CustoProfissional'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8D0FA81F49311E684CA00059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D1138DF49311E68E9E00059A3C7A00' namespace='' name='cdn_funcionario'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8D1138EF49311E6A75500059A3C7A00' stringExpression='cdn_funcionario'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0C4897FE8D13E6FF49311E6A34E00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8D16F34F49311E6954F00059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D16F35F49311E693E200059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='cdn_funcionario'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C4897FE8D186A4F49311E6AF7000059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D1A0BDF49311E6C04000059A3C7A00' namespace='' name='val_custo_hora'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C4897FE8D1E75EF49311E69A8E00059A3C7A00' stringExpression='val_custo_hora'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0C4897FE8D1E75FF49311E6A99E00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C4897FE8D20B02F49311E6B33000059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0C4897FE8D20B03F49311E6C30A00059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='val_custo_hora'/>
+<Galaxy.Workflow.Collaboration m:c='1' m:i='E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00' nameTranslatable='true' documentationTranslatable='true' excludedFromBuild='false' principalPropagationBehavior='none'>
+<name maxWidth='255' originalText='CustoProfissionais' resType='generaltext' translate='true' transUnitId='9A0E12A2C7D611E6CD2500059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A0E12A3C7D611E698AD00059A3C7A00'/>
+</Galaxy.Workflow.Collaboration>
+<Galaxy.Workflow.Pool m:c='1' m:i='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00' nameTranslatable='true' documentationTranslatable='true' active='false' identifier='promon.com.br/rd/CustoProfissionais/CustoProfissionais' boundaryVisible='false'>
+<name maxWidth='255' originalText='CustoProfissionais' resType='generaltext' translate='false' transUnitId='9A0EA3FFC7D611E695F100059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A0ED05EC7D611E6B24E00059A3C7A00'/>
+<subject maxWidth='255' originalText='' resType='generaltext' translate='true' transUnitId='9A0F4B38C7D611E6BF0200059A3C7A00'/>
+<description maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A0F4B39C7D611E68A2900059A3C7A00'/>
+</Galaxy.Workflow.Pool>
+<XSD1.XsdComplexTypeDefinition m:c='2' m:i='E0C792CE9A0FA2C1C7D611E6A4A900059A3C7A00' attributes='E0C792CE9A11FE3AC7D611E68B6E00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='TextVariables' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdParticle m:c='2' m:i='E0C792CE9A11206DC7D611E6BB5000059A3C7A00' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdModelGroup m:c='2' m:i='E0C792CE9A114ECBC7D611E6A85100059A3C7A00' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A11D18FC7D611E6B53C00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='TextVariables' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E0C792CE9A11FE3AC7D611E68B6E00059A3C7A00' namespace='http://sap.com/esm/ui/ext' name='hiddenInTree'/>
+<XSD1.dom.DomText m:c='2' m:i='E0C792CE9A121309C7D611E682D200059A3C7A00' data=''/>
+<Galaxy.Workflow.TextVariable m:c='1' m:i='E0C792CE9A12ABDAC7D611E6CC3700059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables' resType='generaltext' translate='false' transUnitId='9A12ABDBC7D611E69A5000059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A12ABDCC7D611E69A5B00059A3C7A00'/>
+</Galaxy.Workflow.TextVariable>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A13253DC7D611E6C08300059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables_Mapping' resType='generaltext' translate='false' transUnitId='9A13253EC7D611E6824B00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A13253FC7D611E6C71F00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A136367C7D611E6C24600059A3C7A00' category='merge' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1379E7C7D611E693AD00059A3C7A00'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A15265BC7D611E68AE300059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='ProcessInstanceAttributes' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.DataObject m:c='1' m:i='E0C792CE9A155F05C7D611E688DB00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='ProcessInstanceAttributes' resType='generaltext' translate='false' transUnitId='9A155F06C7D611E6C81D00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A1583BCC7D611E6B5B100059A3C7A00'/>
+</Galaxy.Workflow.DataObject>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A174515C7D611E6B99800059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='Administrators' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.ProcessRole m:c='1' m:i='E0C792CE9A177252C7D611E68A6100059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators' resType='generaltext' translate='false' transUnitId='9A180D15C7D611E6C0D500059A3C7A00'/>
+<documentation maxWidth='16380' originalText='Role for Admins' resType='description' translate='false' transUnitId='9A180D16C7D611E6B98B00059A3C7A00'/>
+</Galaxy.Workflow.ProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A1857DBC7D611E6A70600059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators_Mapping' resType='generaltext' translate='false' transUnitId='9A1857DCC7D611E694E300059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A1857DDC7D611E6BB7D00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A188E08C7D611E6B7DB00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A19500CC7D611E6B8B400059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A19AC12C7D611E6BFC800059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1A0BD9C7D611E6957100059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A1A35EAC7D611E6821A00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1AAACFC7D611E6A8B600059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A1AC678C7D611E69D0600059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A1B369BC7D611E6C6FF00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1B8A0FC7D611E6BFE800059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A1BB620C7D611E6860F00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A1C3AA6C7D611E69EF100059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1C80CAC7D611E6AD6C00059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A1C80CBC7D611E6989A00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A1CA6A9C7D611E6CB0700059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A1CFD83C7D611E6A3F300059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A1D1A52C7D611E6C52C00059A3C7A00'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A3E0F9EC7D611E6A14900059A3C7A00' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0C792CE9A3FC310C7D611E6B5A400059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A401353C7D611E6AC1E00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A401F39C7D611E6BFCF00059A3C7A00'/>
+<Galaxy.Workflow.Lane m:c='1' m:i='E0C792CE9A40FE70C7D611E6B9AB00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='CustoProfissionais' resType='generaltext' translate='false' transUnitId='9A40FE71C7D611E6B1BA00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A4125DBC7D611E6AFA500059A3C7A00'/>
+</Galaxy.Workflow.Lane>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A42D3DDC7D611E6A24400059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_PotentialOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0C792CE9A42F878C7D611E697E600059A3C7A00' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='CustoProfissionais_PotentialOwners' resType='generaltext' translate='false' transUnitId='9A42F879C7D611E6CC8C00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A431ACCC7D611E6AC7C00059A3C7A00'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A434893C7D611E68D4200059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Default_PotentialOwners_Mapping' resType='generaltext' translate='false' transUnitId='9A436643C7D611E6B3CA00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A436644C7D611E6A33A00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A436645C7D611E6867A00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A437CDAC7D611E69EE700059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A439D3AC7D611E6CB7B00059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A43EDF4C7D611E69D4600059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A4424F0C7D611E6854800059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A444D40C7D611E6A18400059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A446A97C7D611E6AFF700059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A44FCABC7D611E68C3D00059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A44FCACC7D611E6C45E00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A452F76C7D611E6C3B700059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A456250C7D611E6A03100059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A457D2EC7D611E6A88400059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A45CA39C7D611E690A400059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A4624D8C7D611E690CA00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A467B7DC7D611E6BF3300059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A467B7EC7D611E6CE6900059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A46C25AC7D611E6ADC900059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A46E3E1C7D611E6CCF800059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A46FFD9C7D611E6CECD00059A3C7A00'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A5CEA93C7D611E69C9200059A3C7A00' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0C792CE9A5D355FC7D611E684E700059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A5D41A4C7D611E6AD2700059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A5D8CEDC7D611E69FC500059A3C7A00'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A5EFC98C7D611E6BA6D00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/CustoProfissionais' name='CustoProfissionais_ExcludedOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0C792CE9A5F6174C7D611E6A13300059A3C7A00' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='CustoProfissionais_ExcludedOwners' resType='generaltext' translate='false' transUnitId='9A5F6175C7D611E6A53F00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A5F6176C7D611E6972F00059A3C7A00'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A5F8BC0C7D611E6905B00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Default_ExcludedOwners_Mapping' resType='generaltext' translate='false' transUnitId='9A5F8BC1C7D611E6A63E00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A5FCBF6C7D611E6BC2900059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A5FF2CFC7D611E6A8CF00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A6024B9C7D611E687F700059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A603572C7D611E6929D00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A60560CC7D611E6855C00059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A60B3B2C7D611E6A31C00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A60B3B3C7D611E6C7A100059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A610DCDC7D611E688B000059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A611878C7D611E6B01000059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A61379DC7D611E6C21800059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A618050C7D611E68C3F00059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A619D28C7D611E69D1D00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A61B1CFC7D611E686D200059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A6229A3C7D611E6B6EF00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A625667C7D611E6AB4E00059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A627C40C7D611E6BEB500059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A629CEEC7D611E6865500059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A62C979C7D611E685AE00059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A63053FC7D611E6988000059A3C7A00'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A7AED04C7D611E69C9800059A3C7A00' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0C792CE9A7B4010C7D611E6CB7700059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A7B6670C7D611E69D5500059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A7B6671C7D611E6C37900059A3C7A00'/>
+<Galaxy.Workflow.Pool m:c='1' m:i='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00' nameTranslatable='true' documentationTranslatable='true' active='true' identifier='promon.com.br/rd/CustoProfissionais/Main' boundaryVisible='true'>
+<name maxWidth='255' originalText='Main' resType='generaltext' translate='false' transUnitId='9A7F8DFDC7D611E6B75100059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A7FBFC3C7D611E6875800059A3C7A00'/>
+<subject maxWidth='255' originalText='Main' resType='generaltext' translate='true' transUnitId='9A7FF80DC7D611E6BCBE00059A3C7A00'/>
+<description maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A7FF80EC7D611E6CFAE00059A3C7A00'/>
+</Galaxy.Workflow.Pool>
+<XSD1.XsdComplexTypeDefinition m:c='2' m:i='E0C792CE9A7FF80FC7D611E69D5900059A3C7A00' attributes='E0C792CE9A819D0FC7D611E69AD000059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='TextVariables' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdParticle m:c='2' m:i='E0C792CE9A81101DC7D611E6C18400059A3C7A00' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdModelGroup m:c='2' m:i='E0C792CE9A81319EC7D611E6C78F00059A3C7A00' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A817901C7D611E6825700059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='TextVariables' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E0C792CE9A819D0FC7D611E69AD000059A3C7A00' namespace='http://sap.com/esm/ui/ext' name='hiddenInTree'/>
+<XSD1.dom.DomText m:c='2' m:i='E0C792CE9A819D10C7D611E6966D00059A3C7A00' data=''/>
+<Galaxy.Workflow.TextVariable m:c='1' m:i='E0C792CE9A81E471C7D611E68DB900059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables' resType='generaltext' translate='false' transUnitId='9A81E472C7D611E6A73F00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A81E473C7D611E6A0E900059A3C7A00'/>
+</Galaxy.Workflow.TextVariable>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A821B03C7D611E6BA0700059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables_Mapping' resType='generaltext' translate='false' transUnitId='9A821B04C7D611E68D7400059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A824205C7D611E681AD00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A824206C7D611E69BA600059A3C7A00' category='merge' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A827796C7D611E6CE3800059A3C7A00'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A83B46DC7D611E6831800059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='ProcessInstanceAttributes' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.DataObject m:c='1' m:i='E0C792CE9A83B46EC7D611E6B28B00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='ProcessInstanceAttributes' resType='generaltext' translate='false' transUnitId='9A83EC3BC7D611E6CB4400059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A83EC3DC7D611E6B3A600059A3C7A00'/>
+</Galaxy.Workflow.DataObject>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9A854D1BC7D611E6966500059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Administrators' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.ProcessRole m:c='1' m:i='E0C792CE9A8583D3C7D611E686F400059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators' resType='generaltext' translate='false' transUnitId='9A859420C7D611E681BA00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='Role for Admins' resType='description' translate='false' transUnitId='9A859421C7D611E696E300059A3C7A00'/>
+</Galaxy.Workflow.ProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9A85BCE2C7D611E6A07900059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators_Mapping' resType='generaltext' translate='false' transUnitId='9A85BCE3C7D611E6CCEA00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9A85BCE4C7D611E6BD6A00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A85EA06C7D611E6997A00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A85EA07C7D611E6B5AF00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A860823C7D611E6954500059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A864510C7D611E6806800059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A86634BC7D611E6B10500059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A86779DC7D611E6C18100059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A86B6EDC7D611E6CDD600059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A86D250C7D611E6CDC300059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A86EC3BC7D611E6C3F100059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A87248EC7D611E6AD3200059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A876754C7D611E6B26C00059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A876755C7D611E69C4E00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A8816F5C7D611E6A2C000059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A884232C7D611E6C1F000059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A88663EC7D611E69D0800059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9A888FEAC7D611E6C77F00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9A88B153C7D611E6BED300059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9A88CF0DC7D611E6B63D00059A3C7A00'/>
+<Galaxy.Workflow.Lane m:c='1' m:i='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Main' resType='generaltext' translate='false' transUnitId='9A9F79D7C7D611E6874E00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9A9FBCCCC7D611E6CA6200059A3C7A00'/>
+</Galaxy.Workflow.Lane>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9AA0C7F0C7D611E6A83000059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_PotentialOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0C792CE9AA10E1AC7D611E68F0E00059A3C7A00' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='Main_PotentialOwners' resType='generaltext' translate='false' transUnitId='9AA10E1BC7D611E6C64500059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9AA10E1CC7D611E6949E00059A3C7A00'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9AA13D68C7D611E6975900059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Main_PotentialOwners_Mapping' resType='generaltext' translate='false' transUnitId='9AA13D69C7D611E6814300059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9AA13D6AC7D611E6B85F00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA195C4C7D611E6936500059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA1A09BC7D611E6C9E800059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA1F9A5C7D611E68C2B00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA228DEC7D611E6C46500059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA24BF8C7D611E6CAAD00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA2848DC7D611E6A31D00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA28D25C7D611E6AB2E00059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9AA2CF1EC7D611E6864600059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA2F2B9C7D611E6BC1300059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA35579C7D611E684D300059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9AA3557AC7D611E6B45900059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA42E81C7D611E6B8B600059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA43B9BC7D611E682C700059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9AA46C35C7D611E68CB200059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9AA48EDCC7D611E6871B00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AA4EE4AC7D611E6BA1000059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9AA508FEC7D611E6878D00059A3C7A00'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABA2A8EC7D611E6AD5800059A3C7A00' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0C792CE9ABA5279C7D611E6BF2900059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9ABA6037C7D611E68A5200059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9ABA8CAEC7D611E683C800059A3C7A00'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0C792CE9ABC2B71C7D611E6854C00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='Main_ExcludedOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0C792CE9ABC7A58C7D611E6BF9400059A3C7A00' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='Main_ExcludedOwners' resType='generaltext' translate='false' transUnitId='9ABC7A59C7D611E6BF3500059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9ABC7A5AC7D611E692EC00059A3C7A00'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9ABCC1E2C7D611E697DA00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Main_ExcludedOwners_Mapping' resType='generaltext' translate='false' transUnitId='9ABCC1E3C7D611E6806100059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='9ABCE44DC7D611E6CE0B00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABCF2FDC7D611E6959E00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABCF2FEC7D611E68B8B00059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABD55F1C7D611E6C2A100059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABD72CAC7D611E6873600059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABDA266C7D611E6CEA400059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABDB450C7D611E691B800059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABDF5EAC7D611E684D500059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9ABE119BC7D611E6CE4E00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABE47BBC7D611E6800A00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABE4C81C7D611E6806D00059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9ABE8EF0C7D611E6848F00059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABEF9C7C7D611E68B4C00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABF3DEEC7D611E6C14E00059A3C7A00' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9ABF75CFC7D611E6CC9900059A3C7A00'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0C792CE9ABFA5A5C7D611E6878100059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9ABFC537C7D611E68AD500059A3C7A00' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9ABFDE2BC7D611E680C900059A3C7A00'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AD41975C7D611E6828E00059A3C7A00' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0C792CE9AD435EEC7D611E696E700059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9AD445CAC7D611E69A5E00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0C792CE9AD445CBC7D611E68C0F00059A3C7A00'/>
+<Galaxy.Workflow.StartEvent m:c='1' m:i='E0C792CE9AD53031C7D611E6934E00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Início' resType='generaltext' translate='false' transUnitId='9AD579CAC7D611E6842700059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9AD579CCC7D611E69E2600059A3C7A00'/>
+</Galaxy.Workflow.StartEvent>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9AD64738C7D611E6985300059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Início_OutputMapping' resType='generaltext' translate='false' transUnitId='9AD64739C7D611E6854100059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Rule.Expression m:c='1' m:i='E0C792CE9AD7D9FDC7D611E6B34200059A3C7A00' stringExpression='true'/>
+<Galaxy.Rule.Literal m:c='1' m:i='E0C792CE9AD8E512C7D611E6B4D400059A3C7A00' value='true'/>
+<Galaxy.Workflow.EndEvent m:c='1' m:i='E0C792CE9AD9455FC7D611E68EF700059A3C7A00' nameTranslatable='true' documentationTranslatable='true' terminate='false'>
+<name maxWidth='255' originalText='Fim' resType='generaltext' translate='false' transUnitId='9AD9708BC7D611E6A46200059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='9AD97552C7D611E6A28E00059A3C7A00'/>
+</Galaxy.Workflow.EndEvent>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0C792CE9AD9C18AC7D611E69AE700059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Fim_InputMapping' resType='generaltext' translate='false' transUnitId='9AD9C18BC7D611E6A67E00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.NSPrefix m:c='1' m:i='E0EA895936A1F507C7DD11E69D5C00059A3C7A00' prefix='xsd' namespace='http://www.w3.org/2001/XMLSchema'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA895936A1F508C7DD11E6868F00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA895936A22249C7DD11E6AAB400059A3C7A00' namespace='urn:totvs:ws1:logicalis:ColaboradoresService' name='custoProfissional'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA895936A2224AC7DD11E6928400059A3C7A00' stringExpression='DO_CustoProfissionalContext'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA895936A23C42C7DD11E6B6BE00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA895936A23C43C7DD11E69BED00059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA895936A23C44C7DD11E695D400059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA895936A28459C7DD11E68C7700059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA895936A29E09C7DD11E6C90F00059A3C7A00' namespace='' name='dat_refer'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA895936A29E0AC7DD11E6961000059A3C7A00' stringExpression='dat_refer'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA895936A29E0BC7DD11E6CCB500059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA895936A2C640C7DD11E6C33500059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA895936A2C641C7DD11E6CF3E00059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='dat_refer'/>
+<Galaxy.Mapping.NSPrefix m:c='1' m:i='E0EA89594B3FBA25C7DD11E6B2B300059A3C7A00' prefix='xsd' namespace='http://www.w3.org/2001/XMLSchema'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA89594B3FBA26C7DD11E6835600059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B3FE936C7DD11E685F800059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA89594B3FE937C7DD11E6BB2500059A3C7A00' stringExpression='custoProfissionalResponse'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA89594B3FF13EC7DD11E6BD4C00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA89594B3FF13FC7DD11E6BB5500059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B3FF140C7DD11E6B1E100059A3C7A00' namespace='urn:totvs:ws1:logicalis:ColaboradoresService' name='custoProfissionalResponse'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA89594B403A36C7DD11E6C46400059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B403A37C7DD11E68B1400059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='CustoProfissional'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA89594B405DEEC7DD11E6821F00059A3C7A00' stringExpression='ttCustoColab'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA89594B405DEFC7DD11E6B28100059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA89594B4082A5C7DD11E6AF2100059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B4082A6C7DD11E6898E00059A3C7A00' namespace='' name='ttCustoColab'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA89594B4082A7C7DD11E683E400059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='discardValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B4082A8C7DD11E6997600059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='CustoProfissional'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA89594B40A4AAC7DD11E6C2D100059A3C7A00' stringExpression='ttCustoColabRow'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA89594B40A4ABC7DD11E6B35600059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA89594B40A4ACC7DD11E6A92D00059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B40A4ADC7DD11E68C3600059A3C7A00' namespace='' name='ttCustoColabRow'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA89594B40B41AC7DD11E696F600059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B40B41BC7DD11E6C46400059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='cdn_funcionario'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA89594B40F6EEC7DD11E68A8500059A3C7A00' stringExpression='cdn_funcionario'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA89594B40F6EFC7DD11E6C1CE00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA89594B40F6F0C7DD11E6BA8F00059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B40F6F1C7DD11E6BE7300059A3C7A00' namespace='' name='cdn_funcionario'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B4103D3C7DD11E6883600059A3C7A00' namespace='http://promon.com.br/rd/CustoProfissional' name='val_custo_hora'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EA89594B413221C7DD11E6B4FA00059A3C7A00' stringExpression='val_custo_hora'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0EA89594B413222C7DD11E6AE3F00059A3C7A00' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EA89594B413223C7DD11E68F3200059A3C7A00'/>
+<XSD1.key.QName m:c='2' m:i='E0EA89594B413224C7DD11E6A06600059A3C7A00' namespace='' name='val_custo_hora'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EE4DB2B202FD2DC7D611E6A3D100059A3C7A00' stringExpression='GRUP.SUPER_GROUPS_DATASOURCE.AUTHENTICATED_USERS#Authenticated Users'/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0EE4DB2B203666FC7D611E6837C00059A3C7A00'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0EE4DB2B2038A78C7D611E680EE00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0EE4DB2B2038A79C7D611E683EB00059A3C7A00' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0EE4DB2B203B513C7D611E6A8CD00059A3C7A00'/>
+<Galaxy.Rule.Literal m:c='1' m:i='E0EE4DB2B203DD3DC7D611E6BCB700059A3C7A00' value='GRUP.SUPER_GROUPS_DATASOURCE.AUTHENTICATED_USERS'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0EE4DB2B203F390C7D611E6834400059A3C7A00'/>
+<Galaxy.Workflow.DataObject m:c='1' m:i='E0EE4DB2B81891D6C7D611E6B02200059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='DO_CustoProfissionalContext' resType='generaltext' translate='false' transUnitId='B81891D7C7D611E694FE00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='B818BD1CC7D611E6B98800059A3C7A00'/>
+</Galaxy.Workflow.DataObject>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' namespace='promon.com.br/rd/CustoProfissionais/Main' name='DO_CustoProfissionalContext' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.AutomatedActivity m:c='1' m:i='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Busca Custo Profissionais Datasul' resType='generaltext' translate='false' transUnitId='C31EE57FC7D611E6895B00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='C31EE581C7D611E6CD4700059A3C7A00'/>
+</Galaxy.Workflow.AutomatedActivity>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0EE4DB2C31EF109C7D611E6A27000059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Automatizado 0_InputMapping' resType='generaltext' translate='false' transUnitId='C31EF10AC7D611E6CEC400059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0EE4DB2C31F257FC7D611E6CEC400059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Automatizado 0_OutputMapping' resType='generaltext' translate='false' transUnitId='C31F2580C7D611E6AE1200059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Workflow.SequenceConnector m:c='1' m:i='E0EE4DB2C475B529C7D611E6A6F200059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='' resType='generaltext' translate='false' transUnitId='C475B52AC7D611E6B42700059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='C475D3BBC7D611E69F8600059A3C7A00'/>
+</Galaxy.Workflow.SequenceConnector>
+<Galaxy.Workflow.AutomatedActivity m:c='1' m:i='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Salva Custo Profissionais ECC' resType='generaltext' translate='false' transUnitId='C6D720BFC7D611E6C2A800059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='C6D75256C7D611E6AC4700059A3C7A00'/>
+</Galaxy.Workflow.AutomatedActivity>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0EE4DB2C6D75257C7D611E6946700059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Automatizado 1_InputMapping' resType='generaltext' translate='false' transUnitId='C6D75258C7D611E6C83D00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0EE4DB2C6D76B18C7D611E6C18100059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Automatizado 1_OutputMapping' resType='generaltext' translate='false' transUnitId='C6D76B19C7D611E6ACDC00059A3C7A00'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Workflow.SequenceConnector m:c='1' m:i='E0EE4DB2C6DC0E51C7D611E6A24600059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='' resType='generaltext' translate='false' transUnitId='C6DC0E52C7D611E6B43200059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='C6DC0E53C7D611E68DE000059A3C7A00'/>
+</Galaxy.Workflow.SequenceConnector>
+<Galaxy.Workflow.SequenceConnector m:c='1' m:i='E0EE4DB2C968FBDEC7D611E6903D00059A3C7A00' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='' resType='generaltext' translate='false' transUnitId='C968FBDFC7D611E68E2F00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='C968FBE0C7D611E6AD1000059A3C7A00'/>
+</Galaxy.Workflow.SequenceConnector>
+<XSD1.TypeDefinitionForElementDeclaration c='2'>
+<L f='E0C792CE9A11D18FC7D611E6B53C00059A3C7A00' s='E0C792CE9A0FA2C1C7D611E6A4A900059A3C7A00'/>
+<L f='E0C792CE9A15265BC7D611E68AE300059A3C7A00' s='local:E02C978BF5A4C4FAE11511DFC9DB0019993BA185'/>
+<L f='E0C792CE9A174515C7D611E6B99800059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0C792CE9A42D3DDC7D611E6A24400059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0C792CE9A5EFC98C7D611E6BA6D00059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0C792CE9A817901C7D611E6825700059A3C7A00' s='E0C792CE9A7FF80FC7D611E69D5900059A3C7A00'/>
+<L f='E0C792CE9A83B46DC7D611E6831800059A3C7A00' s='local:E02C978BF5A4C4FAE11511DFC9DB0019993BA185'/>
+<L f='E0C792CE9A854D1BC7D611E6966500059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0C792CE9AA0C7F0C7D611E6A83000059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0C792CE9ABC2B71C7D611E6854C00059A3C7A00' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='local:E01DFA6E5625694CC7D611E68E5100059A3C7A00'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.dom.ChildsOfDomNode c='2'>
+<L f='E0C792CE9A121309C7D611E682D200059A3C7A00' s='E0C792CE9A11FE3AC7D611E68B6E00059A3C7A00'/>
+<L f='E0C792CE9A819D10C7D611E6966D00059A3C7A00' s='E0C792CE9A819D0FC7D611E69AD000059A3C7A00'/>
+</XSD1.dom.ChildsOfDomNode>
+<XSD1.ContentForParticle c='2'>
+<L f='E0C792CE9A11206DC7D611E6BB5000059A3C7A00' s='E0C792CE9A114ECBC7D611E6A85100059A3C7A00'/>
+<L f='E0C792CE9A81101DC7D611E6C18400059A3C7A00' s='E0C792CE9A81319EC7D611E6C78F00059A3C7A00'/>
+</XSD1.ContentForParticle>
+<XSD1.ContentForComplexTypeDefinition c='2'>
+<L f='E0C792CE9A0FA2C1C7D611E6A4A900059A3C7A00' s='E0C792CE9A11206DC7D611E6BB5000059A3C7A00'/>
+<L f='E0C792CE9A7FF80FC7D611E69D5900059A3C7A00' s='E0C792CE9A81101DC7D611E6C18400059A3C7A00'/>
+</XSD1.ContentForComplexTypeDefinition>
+<XSD1.BaseTypeDefinitionForComplexTypeDefinition c='2'>
+<L f='E0C792CE9A0FA2C1C7D611E6A4A900059A3C7A00' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+<L f='E0C792CE9A7FF80FC7D611E69D5900059A3C7A00' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+</XSD1.BaseTypeDefinitionForComplexTypeDefinition>
+<Galaxy.Workflow.SourceOfIncomingConnectors c='1'>
+<L f='E0C792CE9AD53031C7D611E6934E00059A3C7A00' s='E0EE4DB2C475B529C7D611E6A6F200059A3C7A00'/>
+<L f='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00' s='E0EE4DB2C6DC0E51C7D611E6A24600059A3C7A00'/>
+<L f='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00' s='E0EE4DB2C968FBDEC7D611E6903D00059A3C7A00'/>
+</Galaxy.Workflow.SourceOfIncomingConnectors>
+<Galaxy.Workflow.TargetOfOutgoingConnectors c='1'>
+<L f='E0C792CE9AD9455FC7D611E68EF700059A3C7A00' s='E0EE4DB2C968FBDEC7D611E6903D00059A3C7A00'/>
+<L f='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00' s='E0EE4DB2C475B529C7D611E6A6F200059A3C7A00'/>
+<L f='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00' s='E0EE4DB2C6DC0E51C7D611E6A24600059A3C7A00'/>
+</Galaxy.Workflow.TargetOfOutgoingConnectors>
+<Galaxy.Workflow.InputMappingOfMappableObject c='1'>
+<L f='E0C792CE9AD9C18AC7D611E69AE700059A3C7A00' s='E0C792CE9AD9455FC7D611E68EF700059A3C7A00'/>
+<L f='E0EE4DB2C31EF109C7D611E6A27000059A3C7A00' s='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00'/>
+<L f='E0EE4DB2C6D75257C7D611E6946700059A3C7A00' s='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00'/>
+</Galaxy.Workflow.InputMappingOfMappableObject>
+<Galaxy.Workflow.OutputMappingOfMappableObject c='1'>
+<L f='E0C792CE9AD64738C7D611E6985300059A3C7A00' s='E0C792CE9AD53031C7D611E6934E00059A3C7A00'/>
+<L f='E0EE4DB2C31F257FC7D611E6CEC400059A3C7A00' s='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00'/>
+<L f='E0EE4DB2C6D76B18C7D611E6C18100059A3C7A00' s='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00'/>
+</Galaxy.Workflow.OutputMappingOfMappableObject>
+<Galaxy.Mapping.MappingContainsMappingParts c='1'>
+<L f='E0C792CE9A136367C7D611E6C24600059A3C7A00' s='E0C792CE9A13253DC7D611E6C08300059A3C7A00'/>
+<L f='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00' s='E0C792CE9A1857DBC7D611E6A70600059A3C7A00'/>
+<L f='E0C792CE9A436645C7D611E6867A00059A3C7A00' s='E0C792CE9A434893C7D611E68D4200059A3C7A00'/>
+<L f='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00' s='E0C792CE9A5F8BC0C7D611E6905B00059A3C7A00'/>
+<L f='E0C792CE9A824206C7D611E69BA600059A3C7A00' s='E0C792CE9A821B03C7D611E6BA0700059A3C7A00'/>
+<L f='E0C792CE9A85EA06C7D611E6997A00059A3C7A00' s='E0C792CE9A85BCE2C7D611E6A07900059A3C7A00'/>
+<L f='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00' s='E0C792CE9AA13D68C7D611E6975900059A3C7A00'/>
+<L f='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00' s='E0C792CE9ABCC1E2C7D611E697DA00059A3C7A00'/>
+<L f='E024BA4E35A2995CC7D811E6938700059A3C7A00' s='E0C792CE9AD64738C7D611E6985300059A3C7A00'/>
+<L f='E0EE4DB2B2038A79C7D611E683EB00059A3C7A00' s='E0EE4DB2B2038A78C7D611E680EE00059A3C7A00'/>
+<L f='E0EA895936A1F508C7DD11E6868F00059A3C7A00' s='E0EE4DB2C31EF109C7D611E6A27000059A3C7A00'/>
+<L f='E0EA89594B3FBA26C7DD11E6835600059A3C7A00' s='E0EE4DB2C31F257FC7D611E6CEC400059A3C7A00'/>
+<L f='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00' s='E0EE4DB2C6D75257C7D611E6946700059A3C7A00'/>
+</Galaxy.Mapping.MappingContainsMappingParts>
+<Galaxy.Mapping.MappingPartContainsExpression c='1'>
+<L f='E024BA4E35A2E267C7D811E6BC0D00059A3C7A00' s='E024BA4E35A2995CC7D811E6938700059A3C7A00'/>
+<L f='E024BA4E35A325CEC7D811E6AA4300059A3C7A00' s='E024BA4E35A2EC46C7D811E6B69500059A3C7A00'/>
+<L f='E0C4897FE8CEBA9EF49311E6C70900059A3C7A00' s='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00'/>
+<L f='E0C4897FE8CF4BE0F49311E6922F00059A3C7A00' s='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00'/>
+<L f='E0C4897FE8D0065FF49311E6AD1500059A3C7A00' s='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00'/>
+<L f='E0C4897FE8D016FFF49311E6A9F700059A3C7A00' s='E0C4897FE8D00660F49311E685F600059A3C7A00'/>
+<L f='E0C4897FE8D0B8FAF49311E68E5F00059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='E0C4897FE8D1138EF49311E6A75500059A3C7A00' s='E0C4897FE8D0FA81F49311E684CA00059A3C7A00'/>
+<L f='E0C4897FE8D1E75EF49311E69A8E00059A3C7A00' s='E0C4897FE8D186A4F49311E6AF7000059A3C7A00'/>
+<L f='E0C792CE9A1379E7C7D611E693AD00059A3C7A00' s='E0C792CE9A136367C7D611E6C24600059A3C7A00'/>
+<L f='E0C792CE9A188E08C7D611E6B7DB00059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='E0C792CE9A19AC12C7D611E6BFC800059A3C7A00' s='E0C792CE9A19500CC7D611E6B8B400059A3C7A00'/>
+<L f='E0C792CE9A1A0BD9C7D611E6957100059A3C7A00' s='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00'/>
+<L f='E0C792CE9A1AAACFC7D611E6A8B600059A3C7A00' s='E0C792CE9A1A35EAC7D611E6821A00059A3C7A00'/>
+<L f='E0C792CE9A1B8A0FC7D611E6BFE800059A3C7A00' s='E0C792CE9A1B369BC7D611E6C6FF00059A3C7A00'/>
+<L f='E0C792CE9A3E0F9EC7D611E6A14900059A3C7A00' s='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00'/>
+<L f='E0C792CE9A1C80CAC7D611E6AD6C00059A3C7A00' s='E0C792CE9A1C3AA6C7D611E69EF100059A3C7A00'/>
+<L f='E0C792CE9A1CFD83C7D611E6A3F300059A3C7A00' s='E0C792CE9A1CA6A9C7D611E6CB0700059A3C7A00'/>
+<L f='E0C792CE9A437CDAC7D611E69EE700059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='E0C792CE9A43EDF4C7D611E69D4600059A3C7A00' s='E0C792CE9A439D3AC7D611E6CB7B00059A3C7A00'/>
+<L f='E0C792CE9A444D40C7D611E6A18400059A3C7A00' s='E0C792CE9A4424F0C7D611E6854800059A3C7A00'/>
+<L f='E0C792CE9A44FCABC7D611E68C3D00059A3C7A00' s='E0C792CE9A446A97C7D611E6AFF700059A3C7A00'/>
+<L f='E0C792CE9A456250C7D611E6A03100059A3C7A00' s='E0C792CE9A452F76C7D611E6C3B700059A3C7A00'/>
+<L f='E0C792CE9A5CEA93C7D611E69C9200059A3C7A00' s='E0C792CE9A45CA39C7D611E690A400059A3C7A00'/>
+<L f='E0C792CE9A467B7DC7D611E6BF3300059A3C7A00' s='E0C792CE9A4624D8C7D611E690CA00059A3C7A00'/>
+<L f='E0C792CE9A46E3E1C7D611E6CCF800059A3C7A00' s='E0C792CE9A46C25AC7D611E6ADC900059A3C7A00'/>
+<L f='E0C792CE9A5FF2CFC7D611E6A8CF00059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='E0C792CE9A603572C7D611E6929D00059A3C7A00' s='E0C792CE9A6024B9C7D611E687F700059A3C7A00'/>
+<L f='E0C792CE9A60B3B2C7D611E6A31C00059A3C7A00' s='E0C792CE9A60560CC7D611E6855C00059A3C7A00'/>
+<L f='E0C792CE9A610DCDC7D611E688B000059A3C7A00' s='E0C792CE9A60B3B3C7D611E6C7A100059A3C7A00'/>
+<L f='E0C792CE9A618050C7D611E68C3F00059A3C7A00' s='E0C792CE9A61379DC7D611E6C21800059A3C7A00'/>
+<L f='E0C792CE9A7AED04C7D611E69C9800059A3C7A00' s='E0C792CE9A61B1CFC7D611E686D200059A3C7A00'/>
+<L f='E0C792CE9A625667C7D611E6AB4E00059A3C7A00' s='E0C792CE9A6229A3C7D611E6B6EF00059A3C7A00'/>
+<L f='E0C792CE9A62C979C7D611E685AE00059A3C7A00' s='E0C792CE9A629CEEC7D611E6865500059A3C7A00'/>
+<L f='E0C792CE9A827796C7D611E6CE3800059A3C7A00' s='E0C792CE9A824206C7D611E69BA600059A3C7A00'/>
+<L f='E0C792CE9A85EA07C7D611E6B5AF00059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='E0C792CE9A864510C7D611E6806800059A3C7A00' s='E0C792CE9A860823C7D611E6954500059A3C7A00'/>
+<L f='E0C792CE9A86779DC7D611E6C18100059A3C7A00' s='E0C792CE9A86634BC7D611E6B10500059A3C7A00'/>
+<L f='E0C792CE9A86D250C7D611E6CDC300059A3C7A00' s='E0C792CE9A86B6EDC7D611E6CDD600059A3C7A00'/>
+<L f='E0C792CE9A876754C7D611E6B26C00059A3C7A00' s='E0C792CE9A87248EC7D611E6AD3200059A3C7A00'/>
+<L f='E0EE4DB2B202FD2DC7D611E6A3D100059A3C7A00' s='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00'/>
+<L f='E0C792CE9A884232C7D611E6C1F000059A3C7A00' s='E0C792CE9A8816F5C7D611E6A2C000059A3C7A00'/>
+<L f='E0C792CE9A88B153C7D611E6BED300059A3C7A00' s='E0C792CE9A888FEAC7D611E6C77F00059A3C7A00'/>
+<L f='E0C792CE9AA195C4C7D611E6936500059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='E0C792CE9AA1F9A5C7D611E68C2B00059A3C7A00' s='E0C792CE9AA1A09BC7D611E6C9E800059A3C7A00'/>
+<L f='E0C792CE9AA24BF8C7D611E6CAAD00059A3C7A00' s='E0C792CE9AA228DEC7D611E6C46500059A3C7A00'/>
+<L f='E0C792CE9AA28D25C7D611E6AB2E00059A3C7A00' s='E0C792CE9AA2848DC7D611E6A31D00059A3C7A00'/>
+<L f='E0C792CE9AA35579C7D611E684D300059A3C7A00' s='E0C792CE9AA2F2B9C7D611E6BC1300059A3C7A00'/>
+<L f='E0C792CE9ABA2A8EC7D611E6AD5800059A3C7A00' s='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00'/>
+<L f='E0C792CE9AA43B9BC7D611E682C700059A3C7A00' s='E0C792CE9AA42E81C7D611E6B8B600059A3C7A00'/>
+<L f='E0C792CE9AA4EE4AC7D611E6BA1000059A3C7A00' s='E0C792CE9AA48EDCC7D611E6871B00059A3C7A00'/>
+<L f='E0C792CE9ABCF2FDC7D611E6959E00059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='E0C792CE9ABD55F1C7D611E6C2A100059A3C7A00' s='E0C792CE9ABCF2FEC7D611E68B8B00059A3C7A00'/>
+<L f='E0C792CE9ABDA266C7D611E6CEA400059A3C7A00' s='E0C792CE9ABD72CAC7D611E6873600059A3C7A00'/>
+<L f='E0C792CE9ABDF5EAC7D611E684D500059A3C7A00' s='E0C792CE9ABDB450C7D611E691B800059A3C7A00'/>
+<L f='E0C792CE9ABE4C81C7D611E6806D00059A3C7A00' s='E0C792CE9ABE47BBC7D611E6800A00059A3C7A00'/>
+<L f='E0C792CE9AD41975C7D611E6828E00059A3C7A00' s='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00'/>
+<L f='E0C792CE9ABF3DEEC7D611E6C14E00059A3C7A00' s='E0C792CE9ABEF9C7C7D611E68B4C00059A3C7A00'/>
+<L f='E0C792CE9ABFC537C7D611E68AD500059A3C7A00' s='E0C792CE9ABFA5A5C7D611E6878100059A3C7A00'/>
+<L f='E0EA895936A2224AC7DD11E6928400059A3C7A00' s='E0EA895936A1F508C7DD11E6868F00059A3C7A00'/>
+<L f='E0EA895936A29E0AC7DD11E6961000059A3C7A00' s='E0EA895936A28459C7DD11E68C7700059A3C7A00'/>
+<L f='E0EA89594B3FE937C7DD11E6BB2500059A3C7A00' s='E0EA89594B3FBA26C7DD11E6835600059A3C7A00'/>
+<L f='E0EA89594B405DEEC7DD11E6821F00059A3C7A00' s='E0EA89594B403A36C7DD11E6C46400059A3C7A00'/>
+<L f='E0EA89594B40A4AAC7DD11E6C2D100059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+<L f='E0EA89594B40F6EEC7DD11E68A8500059A3C7A00' s='E0EA89594B40B41AC7DD11E696F600059A3C7A00'/>
+<L f='E0EA89594B413221C7DD11E6B4FA00059A3C7A00' s='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00'/>
+<L f='E0EE4DB2B203B513C7D611E6A8CD00059A3C7A00' s='E0EE4DB2B2038A79C7D611E683EB00059A3C7A00'/>
+</Galaxy.Mapping.MappingPartContainsExpression>
+<Galaxy.Mapping.MappingPartHasChildren c='1'>
+<L f='E024BA4E35A2EC46C7D811E6B69500059A3C7A00' s='E024BA4E35A2995CC7D811E6938700059A3C7A00'/>
+<L f='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00' s='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00'/>
+<L f='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00' s='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00'/>
+<L f='E0C4897FE8D00660F49311E685F600059A3C7A00' s='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00'/>
+<L f='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00' s='E0C4897FE8D00660F49311E685F600059A3C7A00'/>
+<L f='E0C4897FE8D0FA81F49311E684CA00059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='E0C4897FE8D186A4F49311E6AF7000059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='E0C792CE9A19500CC7D611E6B8B400059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='E0C792CE9A1A35EAC7D611E6821A00059A3C7A00' s='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00'/>
+<L f='E0C792CE9A1B369BC7D611E6C6FF00059A3C7A00' s='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00'/>
+<L f='E0C792CE9A1C3AA6C7D611E69EF100059A3C7A00' s='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00'/>
+<L f='E0C792CE9A1CA6A9C7D611E6CB0700059A3C7A00' s='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00'/>
+<L f='E0C792CE9A439D3AC7D611E6CB7B00059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='E0C792CE9A4424F0C7D611E6854800059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='E0C792CE9A45CA39C7D611E690A400059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='E0C792CE9A446A97C7D611E6AFF700059A3C7A00' s='E0C792CE9A4424F0C7D611E6854800059A3C7A00'/>
+<L f='E0C792CE9A452F76C7D611E6C3B700059A3C7A00' s='E0C792CE9A4424F0C7D611E6854800059A3C7A00'/>
+<L f='E0C792CE9A4624D8C7D611E690CA00059A3C7A00' s='E0C792CE9A45CA39C7D611E690A400059A3C7A00'/>
+<L f='E0C792CE9A46C25AC7D611E6ADC900059A3C7A00' s='E0C792CE9A45CA39C7D611E690A400059A3C7A00'/>
+<L f='E0C792CE9A6024B9C7D611E687F700059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='E0C792CE9A60560CC7D611E6855C00059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='E0C792CE9A61B1CFC7D611E686D200059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='E0C792CE9A60B3B3C7D611E6C7A100059A3C7A00' s='E0C792CE9A60560CC7D611E6855C00059A3C7A00'/>
+<L f='E0C792CE9A61379DC7D611E6C21800059A3C7A00' s='E0C792CE9A60560CC7D611E6855C00059A3C7A00'/>
+<L f='E0C792CE9A6229A3C7D611E6B6EF00059A3C7A00' s='E0C792CE9A61B1CFC7D611E686D200059A3C7A00'/>
+<L f='E0C792CE9A629CEEC7D611E6865500059A3C7A00' s='E0C792CE9A61B1CFC7D611E686D200059A3C7A00'/>
+<L f='E0C792CE9A860823C7D611E6954500059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='E0C792CE9A86634BC7D611E6B10500059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='E0C792CE9A86B6EDC7D611E6CDD600059A3C7A00' s='E0C792CE9A86634BC7D611E6B10500059A3C7A00'/>
+<L f='E0C792CE9A87248EC7D611E6AD3200059A3C7A00' s='E0C792CE9A86634BC7D611E6B10500059A3C7A00'/>
+<L f='E0C792CE9A8816F5C7D611E6A2C000059A3C7A00' s='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00'/>
+<L f='E0C792CE9A888FEAC7D611E6C77F00059A3C7A00' s='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00'/>
+<L f='E0C792CE9AA1A09BC7D611E6C9E800059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='E0C792CE9AA228DEC7D611E6C46500059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='E0C792CE9AA2848DC7D611E6A31D00059A3C7A00' s='E0C792CE9AA228DEC7D611E6C46500059A3C7A00'/>
+<L f='E0C792CE9AA2F2B9C7D611E6BC1300059A3C7A00' s='E0C792CE9AA228DEC7D611E6C46500059A3C7A00'/>
+<L f='E0C792CE9AA42E81C7D611E6B8B600059A3C7A00' s='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00'/>
+<L f='E0C792CE9AA48EDCC7D611E6871B00059A3C7A00' s='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00'/>
+<L f='E0C792CE9ABCF2FEC7D611E68B8B00059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='E0C792CE9ABD72CAC7D611E6873600059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='E0C792CE9ABDB450C7D611E691B800059A3C7A00' s='E0C792CE9ABD72CAC7D611E6873600059A3C7A00'/>
+<L f='E0C792CE9ABE47BBC7D611E6800A00059A3C7A00' s='E0C792CE9ABD72CAC7D611E6873600059A3C7A00'/>
+<L f='E0C792CE9ABEF9C7C7D611E68B4C00059A3C7A00' s='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00'/>
+<L f='E0C792CE9ABFA5A5C7D611E6878100059A3C7A00' s='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00'/>
+<L f='E0EA895936A28459C7DD11E68C7700059A3C7A00' s='E0EA895936A1F508C7DD11E6868F00059A3C7A00'/>
+<L f='E0EA89594B403A36C7DD11E6C46400059A3C7A00' s='E0EA89594B3FBA26C7DD11E6835600059A3C7A00'/>
+<L f='E0EA89594B4082A7C7DD11E683E400059A3C7A00' s='E0EA89594B403A36C7DD11E6C46400059A3C7A00'/>
+<L f='E0EA89594B40B41AC7DD11E696F600059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+<L f='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+</Galaxy.Mapping.MappingPartHasChildren>
+<Galaxy.Mapping.MappingPartHasTarget c='1'>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E024BA4E35A2995CC7D811E6938700059A3C7A00'/>
+<L f='local:E01DFA6E5627EFA7C7D611E6B98E00059A3C7A00' s='E024BA4E35A2EC46C7D811E6B69500059A3C7A00'/>
+<L f='local:E0E14F867D4FB4C6F49311E68C5100059A3C7A00' s='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00'/>
+<L f='local:E0E14F867D404FCBF49311E6B2D600059A3C7A00' s='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00'/>
+<L f='local:E0E14F867D4255BAF49311E699D600059A3C7A00' s='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00'/>
+<L f='local:E01DFA6E98CB9D11C7DC11E6C4B100059A3C7A00' s='E0C4897FE8D00660F49311E685F600059A3C7A00'/>
+<L f='local:E01DFA6E98CBDD3EC7DC11E68AC300059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='local:E01DFA6E98CC007BC7DC11E6AFEE00059A3C7A00' s='E0C4897FE8D0FA81F49311E684CA00059A3C7A00'/>
+<L f='local:E01DFA6E98CCE384C7DC11E6B47400059A3C7A00' s='E0C4897FE8D186A4F49311E6AF7000059A3C7A00'/>
+<L f='E0C792CE9A11D18FC7D611E6B53C00059A3C7A00' s='E0C792CE9A136367C7D611E6C24600059A3C7A00'/>
+<L f='E0C792CE9A174515C7D611E6B99800059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A19500CC7D611E6B8B400059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A1A35EAC7D611E6821A00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A1B369BC7D611E6C6FF00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A1C3AA6C7D611E69EF100059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A1CA6A9C7D611E6CB0700059A3C7A00'/>
+<L f='E0C792CE9A42D3DDC7D611E6A24400059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A439D3AC7D611E6CB7B00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A4424F0C7D611E6854800059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A446A97C7D611E6AFF700059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A452F76C7D611E6C3B700059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A45CA39C7D611E690A400059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A4624D8C7D611E690CA00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A46C25AC7D611E6ADC900059A3C7A00'/>
+<L f='E0C792CE9A5EFC98C7D611E6BA6D00059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A6024B9C7D611E687F700059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A60560CC7D611E6855C00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A60B3B3C7D611E6C7A100059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A61379DC7D611E6C21800059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A61B1CFC7D611E686D200059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A6229A3C7D611E6B6EF00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A629CEEC7D611E6865500059A3C7A00'/>
+<L f='E0C792CE9A817901C7D611E6825700059A3C7A00' s='E0C792CE9A824206C7D611E69BA600059A3C7A00'/>
+<L f='E0C792CE9A854D1BC7D611E6966500059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A860823C7D611E6954500059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A86634BC7D611E6B10500059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A86B6EDC7D611E6CDD600059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A87248EC7D611E6AD3200059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A8816F5C7D611E6A2C000059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A888FEAC7D611E6C77F00059A3C7A00'/>
+<L f='E0C792CE9AA0C7F0C7D611E6A83000059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9AA1A09BC7D611E6C9E800059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9AA228DEC7D611E6C46500059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9AA2848DC7D611E6A31D00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9AA2F2B9C7D611E6BC1300059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9AA42E81C7D611E6B8B600059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9AA48EDCC7D611E6871B00059A3C7A00'/>
+<L f='E0C792CE9ABC2B71C7D611E6854C00059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9ABCF2FEC7D611E68B8B00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9ABD72CAC7D611E6873600059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9ABDB450C7D611E691B800059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9ABE47BBC7D611E6800A00059A3C7A00'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9ABEF9C7C7D611E68B4C00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9ABFA5A5C7D611E6878100059A3C7A00'/>
+<L f='local:E01DFA6E24F37519C7DD11E6B34700059A3C7A00' s='E0EA895936A1F508C7DD11E6868F00059A3C7A00'/>
+<L f='local:E01DFA6E24E96199C7DD11E69F9C00059A3C7A00' s='E0EA895936A28459C7DD11E68C7700059A3C7A00'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E0EA89594B3FBA26C7DD11E6835600059A3C7A00'/>
+<L f='local:E01DFA6E5628606BC7D611E684EB00059A3C7A00' s='E0EA89594B403A36C7DD11E6C46400059A3C7A00'/>
+<L f='local:E01DFA6E56339E0CC7D611E6834100059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+<L f='local:E01DFA6E562EC38BC7D611E6860800059A3C7A00' s='E0EA89594B40B41AC7DD11E696F600059A3C7A00'/>
+<L f='local:E01DFA6E56315D8CC7D611E6A02100059A3C7A00' s='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00'/>
+<L f='local:481F3B33968275A21AC311DD9F780018717335EB' s='E0EE4DB2B2038A79C7D611E683EB00059A3C7A00'/>
+</Galaxy.Mapping.MappingPartHasTarget>
+<Galaxy.Rule.LiteralHasSimpleDataType c='1'>
+<L f='local:4743E048A5B22940980411DC83220011252E548A' s='E0C792CE9AD8E512C7D611E6B4D400059A3C7A00'/>
+<L f='local:4743E046A4700C52980411DCADE30011252E548A' s='E0EE4DB2B203DD3DC7D611E6BCB700059A3C7A00'/>
+</Galaxy.Rule.LiteralHasSimpleDataType>
+<Galaxy.Rule.ExpressionHasSteps c='1'>
+<L f='E024BA4E35A2EC44C7D811E6939B00059A3C7A00' s='E024BA4E35A2E267C7D811E6BC0D00059A3C7A00'/>
+<L f='E024BA4E35A34F20C7D811E6811600059A3C7A00' s='E024BA4E35A325CEC7D811E6AA4300059A3C7A00'/>
+<L f='E0C4897FE8CF5F58F49311E69A3500059A3C7A00' s='E0C4897FE8CF4BE0F49311E6922F00059A3C7A00'/>
+<L f='E0C4897FE8CF9564F49311E6BC6000059A3C7A00' s='E0C4897FE8CF4BE0F49311E6922F00059A3C7A00'/>
+<L f='E0C4897FE8D03F29F49311E6B1E000059A3C7A00' s='E0C4897FE8D016FFF49311E6A9F700059A3C7A00'/>
+<L f='E0C4897FE8D06978F49311E6A50400059A3C7A00' s='E0C4897FE8D016FFF49311E6A9F700059A3C7A00'/>
+<L f='E0C4897FE8D0B8FCF49311E6BCE900059A3C7A00' s='E0C4897FE8D0B8FAF49311E68E5F00059A3C7A00'/>
+<L f='E0C4897FE8D16F34F49311E6954F00059A3C7A00' s='E0C4897FE8D1138EF49311E6A75500059A3C7A00'/>
+<L f='E0C4897FE8D20B02F49311E6B33000059A3C7A00' s='E0C4897FE8D1E75EF49311E69A8E00059A3C7A00'/>
+<L f='E0C792CE9A1AC678C7D611E69D0600059A3C7A00' s='E0C792CE9A1AAACFC7D611E6A8B600059A3C7A00'/>
+<L f='E0C792CE9A1BB620C7D611E6860F00059A3C7A00' s='E0C792CE9A1B8A0FC7D611E6BFE800059A3C7A00'/>
+<L f='E0C792CE9A1C80CBC7D611E6989A00059A3C7A00' s='E0C792CE9A1C80CAC7D611E6AD6C00059A3C7A00'/>
+<L f='E0C792CE9A1D1A52C7D611E6C52C00059A3C7A00' s='E0C792CE9A1CFD83C7D611E6A3F300059A3C7A00'/>
+<L f='E0C792CE9A3FC310C7D611E6B5A400059A3C7A00' s='E0C792CE9A3E0F9EC7D611E6A14900059A3C7A00'/>
+<L f='E0C792CE9A401F39C7D611E6BFCF00059A3C7A00' s='E0C792CE9A3E0F9EC7D611E6A14900059A3C7A00'/>
+<L f='E0C792CE9A44FCACC7D611E6C45E00059A3C7A00' s='E0C792CE9A44FCABC7D611E68C3D00059A3C7A00'/>
+<L f='E0C792CE9A457D2EC7D611E6A88400059A3C7A00' s='E0C792CE9A456250C7D611E6A03100059A3C7A00'/>
+<L f='E0C792CE9A467B7EC7D611E6CE6900059A3C7A00' s='E0C792CE9A467B7DC7D611E6BF3300059A3C7A00'/>
+<L f='E0C792CE9A46FFD9C7D611E6CECD00059A3C7A00' s='E0C792CE9A46E3E1C7D611E6CCF800059A3C7A00'/>
+<L f='E0C792CE9A5D355FC7D611E684E700059A3C7A00' s='E0C792CE9A5CEA93C7D611E69C9200059A3C7A00'/>
+<L f='E0C792CE9A5D8CEDC7D611E69FC500059A3C7A00' s='E0C792CE9A5CEA93C7D611E69C9200059A3C7A00'/>
+<L f='E0C792CE9A611878C7D611E6B01000059A3C7A00' s='E0C792CE9A610DCDC7D611E688B000059A3C7A00'/>
+<L f='E0C792CE9A619D28C7D611E69D1D00059A3C7A00' s='E0C792CE9A618050C7D611E68C3F00059A3C7A00'/>
+<L f='E0C792CE9A627C40C7D611E6BEB500059A3C7A00' s='E0C792CE9A625667C7D611E6AB4E00059A3C7A00'/>
+<L f='E0C792CE9A63053FC7D611E6988000059A3C7A00' s='E0C792CE9A62C979C7D611E685AE00059A3C7A00'/>
+<L f='E0C792CE9A7B4010C7D611E6CB7700059A3C7A00' s='E0C792CE9A7AED04C7D611E69C9800059A3C7A00'/>
+<L f='E0C792CE9A7B6671C7D611E6C37900059A3C7A00' s='E0C792CE9A7AED04C7D611E69C9800059A3C7A00'/>
+<L f='E0C792CE9A86EC3BC7D611E6C3F100059A3C7A00' s='E0C792CE9A86D250C7D611E6CDC300059A3C7A00'/>
+<L f='E0C792CE9A876755C7D611E69C4E00059A3C7A00' s='E0C792CE9A876754C7D611E6B26C00059A3C7A00'/>
+<L f='E0C792CE9A88663EC7D611E69D0800059A3C7A00' s='E0C792CE9A884232C7D611E6C1F000059A3C7A00'/>
+<L f='E0C792CE9A88CF0DC7D611E6B63D00059A3C7A00' s='E0C792CE9A88B153C7D611E6BED300059A3C7A00'/>
+<L f='E0C792CE9AA2CF1EC7D611E6864600059A3C7A00' s='E0C792CE9AA28D25C7D611E6AB2E00059A3C7A00'/>
+<L f='E0C792CE9AA3557AC7D611E6B45900059A3C7A00' s='E0C792CE9AA35579C7D611E684D300059A3C7A00'/>
+<L f='E0C792CE9AA46C35C7D611E68CB200059A3C7A00' s='E0C792CE9AA43B9BC7D611E682C700059A3C7A00'/>
+<L f='E0C792CE9AA508FEC7D611E6878D00059A3C7A00' s='E0C792CE9AA4EE4AC7D611E6BA1000059A3C7A00'/>
+<L f='E0C792CE9ABA5279C7D611E6BF2900059A3C7A00' s='E0C792CE9ABA2A8EC7D611E6AD5800059A3C7A00'/>
+<L f='E0C792CE9ABA8CAEC7D611E683C800059A3C7A00' s='E0C792CE9ABA2A8EC7D611E6AD5800059A3C7A00'/>
+<L f='E0C792CE9ABE119BC7D611E6CE4E00059A3C7A00' s='E0C792CE9ABDF5EAC7D611E684D500059A3C7A00'/>
+<L f='E0C792CE9ABE8EF0C7D611E6848F00059A3C7A00' s='E0C792CE9ABE4C81C7D611E6806D00059A3C7A00'/>
+<L f='E0C792CE9ABF75CFC7D611E6CC9900059A3C7A00' s='E0C792CE9ABF3DEEC7D611E6C14E00059A3C7A00'/>
+<L f='E0C792CE9ABFDE2BC7D611E680C900059A3C7A00' s='E0C792CE9ABFC537C7D611E68AD500059A3C7A00'/>
+<L f='E0C792CE9AD435EEC7D611E696E700059A3C7A00' s='E0C792CE9AD41975C7D611E6828E00059A3C7A00'/>
+<L f='E0C792CE9AD445CBC7D611E68C0F00059A3C7A00' s='E0C792CE9AD41975C7D611E6828E00059A3C7A00'/>
+<L f='E0C792CE9AD8E512C7D611E6B4D400059A3C7A00' s='E0C792CE9AD7D9FDC7D611E6B34200059A3C7A00'/>
+<L f='E0EA895936A23C43C7DD11E69BED00059A3C7A00' s='E0EA895936A2224AC7DD11E6928400059A3C7A00'/>
+<L f='E0EA895936A2C640C7DD11E6C33500059A3C7A00' s='E0EA895936A29E0AC7DD11E6961000059A3C7A00'/>
+<L f='E0EA89594B3FF13FC7DD11E6BB5500059A3C7A00' s='E0EA89594B3FE937C7DD11E6BB2500059A3C7A00'/>
+<L f='E0EA89594B4082A5C7DD11E6AF2100059A3C7A00' s='E0EA89594B405DEEC7DD11E6821F00059A3C7A00'/>
+<L f='E0EA89594B40A4ACC7DD11E6A92D00059A3C7A00' s='E0EA89594B40A4AAC7DD11E6C2D100059A3C7A00'/>
+<L f='E0EA89594B40F6F0C7DD11E6BA8F00059A3C7A00' s='E0EA89594B40F6EEC7DD11E68A8500059A3C7A00'/>
+<L f='E0EA89594B413223C7DD11E68F3200059A3C7A00' s='E0EA89594B413221C7DD11E6B4FA00059A3C7A00'/>
+<L f='E0EE4DB2B203666FC7D611E6837C00059A3C7A00' s='E0EE4DB2B202FD2DC7D611E6A3D100059A3C7A00'/>
+<L f='E0EE4DB2B203F390C7D611E6834400059A3C7A00' s='E0EE4DB2B202FD2DC7D611E6A3D100059A3C7A00'/>
+<L f='E0EE4DB2B203DD3DC7D611E6BCB700059A3C7A00' s='E0EE4DB2B203B513C7D611E6A8CD00059A3C7A00'/>
+</Galaxy.Rule.ExpressionHasSteps>
+<Galaxy.Rule.ReferencePointToXsdFeature c='1'>
+<L f='local:E01DFA6EFEA644D3C7D711E6915E00059A3C7A00' s='E024BA4E35A2EC44C7D811E6939B00059A3C7A00'/>
+<L f='local:E01DFA6EFEAB51D3C7D711E68DF200059A3C7A00' s='E024BA4E35A34F20C7D811E6811600059A3C7A00'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E0C4897FE8CF5F58F49311E69A3500059A3C7A00'/>
+<L f='local:E01DFA6E5627EFA7C7D611E6B98E00059A3C7A00' s='E0C4897FE8CF9564F49311E6BC6000059A3C7A00'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E0C4897FE8D03F29F49311E6B1E000059A3C7A00'/>
+<L f='local:E01DFA6E5628606BC7D611E684EB00059A3C7A00' s='E0C4897FE8D06978F49311E6A50400059A3C7A00'/>
+<L f='local:E01DFA6E56339E0CC7D611E6834100059A3C7A00' s='E0C4897FE8D0B8FCF49311E6BCE900059A3C7A00'/>
+<L f='local:E01DFA6E562EC38BC7D611E6860800059A3C7A00' s='E0C4897FE8D16F34F49311E6954F00059A3C7A00'/>
+<L f='local:E01DFA6E56315D8CC7D611E6A02100059A3C7A00' s='E0C4897FE8D20B02F49311E6B33000059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A1AC678C7D611E69D0600059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A1BB620C7D611E6860F00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A1C80CBC7D611E6989A00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A1D1A52C7D611E6C52C00059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0C792CE9A401F39C7D611E6BFCF00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A44FCACC7D611E6C45E00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A457D2EC7D611E6A88400059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A467B7EC7D611E6CE6900059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A46FFD9C7D611E6CECD00059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0C792CE9A5D8CEDC7D611E69FC500059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A611878C7D611E6B01000059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A619D28C7D611E69D1D00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A627C40C7D611E6BEB500059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A63053FC7D611E6988000059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0C792CE9A7B6671C7D611E6C37900059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A86EC3BC7D611E6C3F100059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A876755C7D611E69C4E00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9A88663EC7D611E69D0800059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9A88CF0DC7D611E6B63D00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9AA2CF1EC7D611E6864600059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9AA3557AC7D611E6B45900059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9AA46C35C7D611E68CB200059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9AA508FEC7D611E6878D00059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0C792CE9ABA8CAEC7D611E683C800059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9ABE119BC7D611E6CE4E00059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9ABE8EF0C7D611E6848F00059A3C7A00'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0C792CE9ABF75CFC7D611E6CC9900059A3C7A00'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0C792CE9ABFDE2BC7D611E680C900059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0C792CE9AD445CBC7D611E68C0F00059A3C7A00'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E0EA895936A23C43C7DD11E69BED00059A3C7A00'/>
+<L f='local:E01DFA6E5627EFA7C7D611E6B98E00059A3C7A00' s='E0EA895936A2C640C7DD11E6C33500059A3C7A00'/>
+<L f='local:E01DFA6E98D5731EC7DC11E6A39700059A3C7A00' s='E0EA89594B3FF13FC7DD11E6BB5500059A3C7A00'/>
+<L f='local:E01DFA6E98CB9D11C7DC11E6C4B100059A3C7A00' s='E0EA89594B4082A5C7DD11E6AF2100059A3C7A00'/>
+<L f='local:E01DFA6E98CBDD3EC7DC11E68AC300059A3C7A00' s='E0EA89594B40A4ACC7DD11E6A92D00059A3C7A00'/>
+<L f='local:E01DFA6E98CC007BC7DC11E6AFEE00059A3C7A00' s='E0EA89594B40F6F0C7DD11E6BA8F00059A3C7A00'/>
+<L f='local:E01DFA6E98CCE384C7DC11E6B47400059A3C7A00' s='E0EA89594B413223C7DD11E68F3200059A3C7A00'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0EE4DB2B203F390C7D611E6834400059A3C7A00'/>
+</Galaxy.Rule.ReferencePointToXsdFeature>
+<Galaxy.Rule.FunctionInvocationHasParameterMapping c='1'>
+<L f='E0C792CE9A401353C7D611E6AC1E00059A3C7A00' s='E0C792CE9A3FC310C7D611E6B5A400059A3C7A00'/>
+<L f='E0C792CE9A5D41A4C7D611E6AD2700059A3C7A00' s='E0C792CE9A5D355FC7D611E684E700059A3C7A00'/>
+<L f='E0C792CE9A7B6670C7D611E69D5500059A3C7A00' s='E0C792CE9A7B4010C7D611E6CB7700059A3C7A00'/>
+<L f='E0C792CE9ABA6037C7D611E68A5200059A3C7A00' s='E0C792CE9ABA5279C7D611E6BF2900059A3C7A00'/>
+<L f='E0C792CE9AD445CAC7D611E69A5E00059A3C7A00' s='E0C792CE9AD435EEC7D611E696E700059A3C7A00'/>
+<L f='E0EE4DB2B2038A78C7D611E680EE00059A3C7A00' s='E0EE4DB2B203666FC7D611E6837C00059A3C7A00'/>
+</Galaxy.Rule.FunctionInvocationHasParameterMapping>
+<Galaxy.Workflow.LaneHasScopeObjects c='1'>
+<L f='E0C792CE9A42F878C7D611E697E600059A3C7A00' s='E0C792CE9A40FE70C7D611E6B9AB00059A3C7A00'/>
+<L f='E0C792CE9A5F6174C7D611E6A13300059A3C7A00' s='E0C792CE9A40FE70C7D611E6B9AB00059A3C7A00'/>
+<L f='E0C792CE9AA10E1AC7D611E68F0E00059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0C792CE9ABC7A58C7D611E6BF9400059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0C792CE9AD53031C7D611E6934E00059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0C792CE9AD9455FC7D611E68EF700059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0EE4DB2B81891D6C7D611E6B02200059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+<L f='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00' s='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00'/>
+</Galaxy.Workflow.LaneHasScopeObjects>
+<Galaxy.Workflow.ScopeContainsScopeObjects c='1'>
+<L f='E0C792CE9A12ABDAC7D611E6CC3700059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A155F05C7D611E688DB00059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A177252C7D611E68A6100059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A40FE70C7D611E6B9AB00059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A42F878C7D611E697E600059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A5F6174C7D611E6A13300059A3C7A00' s='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00'/>
+<L f='E0C792CE9A81E471C7D611E68DB900059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9A83B46EC7D611E6B28B00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9A8583D3C7D611E686F400059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9A9F79D6C7D611E6B42E00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9AA10E1AC7D611E68F0E00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9ABC7A58C7D611E6BF9400059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9AD53031C7D611E6934E00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0C792CE9AD9455FC7D611E68EF700059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2B81891D6C7D611E6B02200059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2C475B529C7D611E6A6F200059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2C6DC0E51C7D611E6A24600059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+<L f='E0EE4DB2C968FBDEC7D611E6903D00059A3C7A00' s='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00'/>
+</Galaxy.Workflow.ScopeContainsScopeObjects>
+<Galaxy.Workflow.ViewContainsMapping c='1'>
+<L f='E0C792CE9A13253DC7D611E6C08300059A3C7A00' s='E0C792CE9A12ABDAC7D611E6CC3700059A3C7A00'/>
+<L f='E0C792CE9A1857DBC7D611E6A70600059A3C7A00' s='E0C792CE9A177252C7D611E68A6100059A3C7A00'/>
+<L f='E0C792CE9A434893C7D611E68D4200059A3C7A00' s='E0C792CE9A42F878C7D611E697E600059A3C7A00'/>
+<L f='E0C792CE9A5F8BC0C7D611E6905B00059A3C7A00' s='E0C792CE9A5F6174C7D611E6A13300059A3C7A00'/>
+<L f='E0C792CE9A821B03C7D611E6BA0700059A3C7A00' s='E0C792CE9A81E471C7D611E68DB900059A3C7A00'/>
+<L f='E0C792CE9A85BCE2C7D611E6A07900059A3C7A00' s='E0C792CE9A8583D3C7D611E686F400059A3C7A00'/>
+<L f='E0C792CE9AA13D68C7D611E6975900059A3C7A00' s='E0C792CE9AA10E1AC7D611E68F0E00059A3C7A00'/>
+<L f='E0C792CE9ABCC1E2C7D611E697DA00059A3C7A00' s='E0C792CE9ABC7A58C7D611E6BF9400059A3C7A00'/>
+</Galaxy.Workflow.ViewContainsMapping>
+<Galaxy.Workflow.CollaborationContainsPools c='1'>
+<L f='E0C792CE9A0E71F1C7D611E6BBD300059A3C7A00' s='E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00'/>
+<L f='E0C792CE9A7F8DFCC7D611E6CBA100059A3C7A00' s='E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00'/>
+</Galaxy.Workflow.CollaborationContainsPools>
+<Galaxy.Workflow.ActivityHasOperation c='1'>
+<L f='local:E01DFA6E038C20DEC7D711E6CBAD00059A3C7A00' s='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00'/>
+<L f='local:E01DFA6E11D7035AC7D711E6A4F900059A3C7A00' s='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00'/>
+</Galaxy.Workflow.ActivityHasOperation>
+<Galaxy.Workflow.CatchEventContainsExpression c='1'>
+<L f='E0C792CE9AD53031C7D611E6934E00059A3C7A00' s='E0C792CE9AD7D9FDC7D611E6B34200059A3C7A00'/>
+</Galaxy.Workflow.CatchEventContainsExpression>
+<Galaxy.Workflow.AutomatedActivityHasServiceReference c='1'>
+<L f='local:E0367719032D9958C7D711E6C9F400059A3C7A00' s='E0EE4DB2C31EB106C7D611E6A96200059A3C7A00'/>
+<L f='local:E036771911CC6D48C7D711E6AAD600059A3C7A00' s='E0EE4DB2C6D720BEC7D611E686AE00059A3C7A00'/>
+</Galaxy.Workflow.AutomatedActivityHasServiceReference>
+<Galaxy.Rule.FunctionInvocationHasFunctionInterface c='1'>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0C792CE9A3FC310C7D611E6B5A400059A3C7A00'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0C792CE9A5D355FC7D611E684E700059A3C7A00'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0C792CE9A7B4010C7D611E6CB7700059A3C7A00'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0C792CE9ABA5279C7D611E6BF2900059A3C7A00'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0C792CE9AD435EEC7D611E696E700059A3C7A00'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0EE4DB2B203666FC7D611E6837C00059A3C7A00'/>
+</Galaxy.Rule.FunctionInvocationHasFunctionInterface>
+<Galaxy.Workflow.CatchEventHasTrigger c='1'>
+<L f='local:E0BC3D2508F7B0A8C7D811E6C00400059A3C7A00' s='E0C792CE9AD53031C7D611E6934E00059A3C7A00'/>
+</Galaxy.Workflow.CatchEventHasTrigger>
+<Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration c='1'>
+<L f='E0C792CE9A11D18FC7D611E6B53C00059A3C7A00' s='E0C792CE9A12ABDAC7D611E6CC3700059A3C7A00'/>
+<L f='E0C792CE9A15265BC7D611E68AE300059A3C7A00' s='E0C792CE9A155F05C7D611E688DB00059A3C7A00'/>
+<L f='E0C792CE9A174515C7D611E6B99800059A3C7A00' s='E0C792CE9A177252C7D611E68A6100059A3C7A00'/>
+<L f='E0C792CE9A42D3DDC7D611E6A24400059A3C7A00' s='E0C792CE9A42F878C7D611E697E600059A3C7A00'/>
+<L f='E0C792CE9A5EFC98C7D611E6BA6D00059A3C7A00' s='E0C792CE9A5F6174C7D611E6A13300059A3C7A00'/>
+<L f='E0C792CE9A817901C7D611E6825700059A3C7A00' s='E0C792CE9A81E471C7D611E68DB900059A3C7A00'/>
+<L f='E0C792CE9A83B46DC7D611E6831800059A3C7A00' s='E0C792CE9A83B46EC7D611E6B28B00059A3C7A00'/>
+<L f='E0C792CE9A854D1BC7D611E6966500059A3C7A00' s='E0C792CE9A8583D3C7D611E686F400059A3C7A00'/>
+<L f='E0C792CE9AA0C7F0C7D611E6A83000059A3C7A00' s='E0C792CE9AA10E1AC7D611E68F0E00059A3C7A00'/>
+<L f='E0C792CE9ABC2B71C7D611E6854C00059A3C7A00' s='E0C792CE9ABC7A58C7D611E6BF9400059A3C7A00'/>
+<L f='E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00' s='E0EE4DB2B81891D6C7D611E6B02200059A3C7A00'/>
+</Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration>
+<Galaxy.Mapping.MappingContainsNamespacePrefixes c='1'>
+<L f='E024BA4E35A2995BC7D811E6952700059A3C7A00' s='E0C792CE9AD64738C7D611E6985300059A3C7A00'/>
+<L f='E0EA895936A1F507C7DD11E69D5C00059A3C7A00' s='E0EE4DB2C31EF109C7D611E6A27000059A3C7A00'/>
+<L f='E0EA89594B3FBA25C7DD11E6B2B300059A3C7A00' s='E0EE4DB2C31F257FC7D611E6CEC400059A3C7A00'/>
+<L f='E0C4897FE8CE6A06F49311E68ACC00059A3C7A00' s='E0EE4DB2C6D75257C7D611E6946700059A3C7A00'/>
+</Galaxy.Mapping.MappingContainsNamespacePrefixes>
+<Galaxy.Mapping.MappingPartContainsConfiguration c='1'>
+<L f='E024BA4E35A2E268C7D811E68B2A00059A3C7A00' s='E024BA4E35A2995CC7D811E6938700059A3C7A00'/>
+<L f='E024BA4E35A34F1FC7D811E6C9C900059A3C7A00' s='E024BA4E35A2EC46C7D811E6B69500059A3C7A00'/>
+<L f='E0C4897FE8CF4BE1F49311E694DA00059A3C7A00' s='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00'/>
+<L f='E0C4897FE8D03F28F49311E6B03400059A3C7A00' s='E0C4897FE8D00660F49311E685F600059A3C7A00'/>
+<L f='E0C4897FE8D0B8FBF49311E6995F00059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='E0C4897FE8D13E6FF49311E6A34E00059A3C7A00' s='E0C4897FE8D0FA81F49311E684CA00059A3C7A00'/>
+<L f='E0C4897FE8D1E75FF49311E6A99E00059A3C7A00' s='E0C4897FE8D186A4F49311E6AF7000059A3C7A00'/>
+<L f='E0EA895936A23C42C7DD11E6B6BE00059A3C7A00' s='E0EA895936A1F508C7DD11E6868F00059A3C7A00'/>
+<L f='E0EA895936A29E0BC7DD11E6CCB500059A3C7A00' s='E0EA895936A28459C7DD11E68C7700059A3C7A00'/>
+<L f='E0EA89594B3FF13EC7DD11E6BD4C00059A3C7A00' s='E0EA89594B3FBA26C7DD11E6835600059A3C7A00'/>
+<L f='E0EA89594B405DEFC7DD11E6B28100059A3C7A00' s='E0EA89594B403A36C7DD11E6C46400059A3C7A00'/>
+<L f='E0EA89594B40A4ABC7DD11E6B35600059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+<L f='E0EA89594B40F6EFC7DD11E6C1CE00059A3C7A00' s='E0EA89594B40B41AC7DD11E696F600059A3C7A00'/>
+<L f='E0EA89594B413222C7DD11E6AE3F00059A3C7A00' s='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00'/>
+</Galaxy.Mapping.MappingPartContainsConfiguration>
+<Galaxy.Mapping.MappingPartHasQName c='1'>
+<L f='E024BA4E35A2995DC7D811E6C2E300059A3C7A00' s='E024BA4E35A2995CC7D811E6938700059A3C7A00'/>
+<L f='E024BA4E35A325CDC7D811E6995600059A3C7A00' s='E024BA4E35A2EC46C7D811E6B69500059A3C7A00'/>
+<L f='E0C4897FE8CE8FF4F49311E68BF500059A3C7A00' s='E0C4897FE8CE8FF3F49311E6CAAB00059A3C7A00'/>
+<L f='E0C4897FE8CF074AF49311E69EB500059A3C7A00' s='E0C4897FE8CEEAF8F49311E6BBCE00059A3C7A00'/>
+<L f='E0C4897FE8CFD513F49311E680FD00059A3C7A00' s='E0C4897FE8CFB1F0F49311E6A79600059A3C7A00'/>
+<L f='E0C4897FE8D016FEF49311E691C500059A3C7A00' s='E0C4897FE8D00660F49311E685F600059A3C7A00'/>
+<L f='E0C4897FE8D08DE4F49311E6A25200059A3C7A00' s='E0C4897FE8D08DE3F49311E68FFE00059A3C7A00'/>
+<L f='E0C4897FE8D1138DF49311E68E9E00059A3C7A00' s='E0C4897FE8D0FA81F49311E684CA00059A3C7A00'/>
+<L f='E0C4897FE8D1A0BDF49311E6C04000059A3C7A00' s='E0C4897FE8D186A4F49311E6AF7000059A3C7A00'/>
+<L f='E04BA034995C71F9C7DC11E6B7B700059A3C7A00' s='E0C792CE9A136367C7D611E6C24600059A3C7A00'/>
+<L f='E04BA034995C1A19C7DC11E680E300059A3C7A00' s='E0C792CE9A188E07C7D611E6AB8D00059A3C7A00'/>
+<L f='E04BA034995CA8A9C7DC11E69D8700059A3C7A00' s='E0C792CE9A19500CC7D611E6B8B400059A3C7A00'/>
+<L f='E04BA034995DBB16C7DC11E6A29700059A3C7A00' s='E0C792CE9A19DBD5C7D611E6B98100059A3C7A00'/>
+<L f='E04BA034995BF06BC7DC11E68C3100059A3C7A00' s='E0C792CE9A1A35EAC7D611E6821A00059A3C7A00'/>
+<L f='E04BA034995CB35DC7DC11E6C9C800059A3C7A00' s='E0C792CE9A1B369BC7D611E6C6FF00059A3C7A00'/>
+<L f='E04BA034995EA0B5C7DC11E6C91F00059A3C7A00' s='E0C792CE9A1BCAE0C7D611E68C5B00059A3C7A00'/>
+<L f='E04BA034995CD9B3C7DC11E6C9F200059A3C7A00' s='E0C792CE9A1C3AA6C7D611E69EF100059A3C7A00'/>
+<L f='E04BA034995C3C53C7DC11E6ABDF00059A3C7A00' s='E0C792CE9A1CA6A9C7D611E6CB0700059A3C7A00'/>
+<L f='E04BA034995CA8AAC7DC11E6838800059A3C7A00' s='E0C792CE9A436645C7D611E6867A00059A3C7A00'/>
+<L f='E04BA034995E80D3C7DC11E6C5F400059A3C7A00' s='E0C792CE9A439D3AC7D611E6CB7B00059A3C7A00'/>
+<L f='E04BA034995D8AC8C7DC11E6AD0000059A3C7A00' s='E0C792CE9A4424F0C7D611E6854800059A3C7A00'/>
+<L f='E04BA034995E41FDC7DC11E6912F00059A3C7A00' s='E0C792CE9A446A97C7D611E6AFF700059A3C7A00'/>
+<L f='E04BA034995D6ACEC7DC11E68FD100059A3C7A00' s='E0C792CE9A452F76C7D611E6C3B700059A3C7A00'/>
+<L f='E04BA034995E80D1C7DC11E6B48C00059A3C7A00' s='E0C792CE9A45CA39C7D611E690A400059A3C7A00'/>
+<L f='E04BA034995DC609C7DC11E6831800059A3C7A00' s='E0C792CE9A4624D8C7D611E690CA00059A3C7A00'/>
+<L f='E04BA034995EB514C7DC11E6A7C100059A3C7A00' s='E0C792CE9A46C25AC7D611E6ADC900059A3C7A00'/>
+<L f='E04BA034995CD9B4C7DC11E6BD4B00059A3C7A00' s='E0C792CE9A5FCBF7C7D611E6A36700059A3C7A00'/>
+<L f='E04BA034995D6ACCC7DC11E6881D00059A3C7A00' s='E0C792CE9A6024B9C7D611E687F700059A3C7A00'/>
+<L f='E04BA034995E13AAC7DC11E6905600059A3C7A00' s='E0C792CE9A60560CC7D611E6855C00059A3C7A00'/>
+<L f='E04BA034995DBB14C7DC11E6960300059A3C7A00' s='E0C792CE9A60B3B3C7D611E6C7A100059A3C7A00'/>
+<L f='E04BA034995E80D2C7DC11E6843000059A3C7A00' s='E0C792CE9A61379DC7D611E6C21800059A3C7A00'/>
+<L f='E04BA034995DBB15C7DC11E6842800059A3C7A00' s='E0C792CE9A61B1CFC7D611E686D200059A3C7A00'/>
+<L f='E04BA034995D8AC9C7DC11E6AF9400059A3C7A00' s='E0C792CE9A6229A3C7D611E6B6EF00059A3C7A00'/>
+<L f='E04BA034995D6ACDC7DC11E69C6A00059A3C7A00' s='E0C792CE9A629CEEC7D611E6865500059A3C7A00'/>
+<L f='E04BA034995CA8A8C7DC11E6C64700059A3C7A00' s='E0C792CE9A824206C7D611E69BA600059A3C7A00'/>
+<L f='E04BA034995C71F8C7DC11E681AF00059A3C7A00' s='E0C792CE9A85EA06C7D611E6997A00059A3C7A00'/>
+<L f='E04BA034995CB35BC7DC11E6B88600059A3C7A00' s='E0C792CE9A860823C7D611E6954500059A3C7A00'/>
+<L f='E04BA034995EA0B6C7DC11E6CC3E00059A3C7A00' s='E0C792CE9A86634BC7D611E6B10500059A3C7A00'/>
+<L f='E04BA034995D0EB2C7DC11E6A94800059A3C7A00' s='E0C792CE9A86B6EDC7D611E6CDD600059A3C7A00'/>
+<L f='E04BA034995D3154C7DC11E6853900059A3C7A00' s='E0C792CE9A87248EC7D611E6AD3200059A3C7A00'/>
+<L f='E04BA034995C1A1AC7DC11E6C67B00059A3C7A00' s='E0C792CE9A87CB73C7D611E6A8B800059A3C7A00'/>
+<L f='E04BA034995CD9B5C7DC11E69DA400059A3C7A00' s='E0C792CE9A8816F5C7D611E6A2C000059A3C7A00'/>
+<L f='E04BA034995E13A9C7DC11E6849600059A3C7A00' s='E0C792CE9A888FEAC7D611E6C77F00059A3C7A00'/>
+<L f='E04BA034995DC60AC7DC11E691E200059A3C7A00' s='E0C792CE9AA195C3C7D611E6CD6100059A3C7A00'/>
+<L f='E04BA034995C3C52C7DC11E6A40600059A3C7A00' s='E0C792CE9AA1A09BC7D611E6C9E800059A3C7A00'/>
+<L f='E04BA034995C1A1BC7DC11E68A7000059A3C7A00' s='E0C792CE9AA228DEC7D611E6C46500059A3C7A00'/>
+<L f='E04BA034995C3C54C7DC11E6A03E00059A3C7A00' s='E0C792CE9AA2848DC7D611E6A31D00059A3C7A00'/>
+<L f='E04BA03499578D2AC7DC11E6A54900059A3C7A00' s='E0C792CE9AA2F2B9C7D611E6BC1300059A3C7A00'/>
+<L f='E04BA034995DEF23C7DC11E6B18100059A3C7A00' s='E0C792CE9AA3BA9EC7D611E6B5CE00059A3C7A00'/>
+<L f='E04BA034995D3153C7DC11E6CD6800059A3C7A00' s='E0C792CE9AA42E81C7D611E6B8B600059A3C7A00'/>
+<L f='E04BA034995DEF24C7DC11E6A92400059A3C7A00' s='E0C792CE9AA48EDCC7D611E6871B00059A3C7A00'/>
+<L f='E04BA034995D0EB0C7DC11E697E200059A3C7A00' s='E0C792CE9ABCE44EC7D611E683CB00059A3C7A00'/>
+<L f='E04BA034995D0EB1C7DC11E6894000059A3C7A00' s='E0C792CE9ABCF2FEC7D611E68B8B00059A3C7A00'/>
+<L f='E04BA034995C71F7C7DC11E683BE00059A3C7A00' s='E0C792CE9ABD72CAC7D611E6873600059A3C7A00'/>
+<L f='E04BA034995E13A8C7DC11E690AD00059A3C7A00' s='E0C792CE9ABDB450C7D611E691B800059A3C7A00'/>
+<L f='E04BA034995DC60BC7DC11E6996E00059A3C7A00' s='E0C792CE9ABE47BBC7D611E6800A00059A3C7A00'/>
+<L f='E04BA034995E41FEC7DC11E6A02D00059A3C7A00' s='E0C792CE9ABE9FECC7D611E68A7000059A3C7A00'/>
+<L f='E04BA034995D3155C7DC11E6CA7800059A3C7A00' s='E0C792CE9ABEF9C7C7D611E68B4C00059A3C7A00'/>
+<L f='E04BA034995EB513C7DC11E6C08400059A3C7A00' s='E0C792CE9ABFA5A5C7D611E6878100059A3C7A00'/>
+<L f='E0EA895936A22249C7DD11E6AAB400059A3C7A00' s='E0EA895936A1F508C7DD11E6868F00059A3C7A00'/>
+<L f='E0EA895936A29E09C7DD11E6C90F00059A3C7A00' s='E0EA895936A28459C7DD11E68C7700059A3C7A00'/>
+<L f='E0EA89594B3FE936C7DD11E685F800059A3C7A00' s='E0EA89594B3FBA26C7DD11E6835600059A3C7A00'/>
+<L f='E0EA89594B403A37C7DD11E68B1400059A3C7A00' s='E0EA89594B403A36C7DD11E6C46400059A3C7A00'/>
+<L f='E0EA89594B4082A8C7DD11E6997600059A3C7A00' s='E0EA89594B4082A7C7DD11E683E400059A3C7A00'/>
+<L f='E0EA89594B40B41BC7DD11E6C46400059A3C7A00' s='E0EA89594B40B41AC7DD11E696F600059A3C7A00'/>
+<L f='E0EA89594B4103D3C7DD11E6883600059A3C7A00' s='E0EA89594B4103D2C7DD11E6B63E00059A3C7A00'/>
+<L f='E04BA034995CB35CC7DC11E695AE00059A3C7A00' s='E0EE4DB2B2038A79C7D611E683EB00059A3C7A00'/>
+</Galaxy.Mapping.MappingPartHasQName>
+<Galaxy.Rule.ReferenceHasQName c='1'>
+<L f='E024BA4E35A2EC45C7D811E6A64A00059A3C7A00' s='E024BA4E35A2EC44C7D811E6939B00059A3C7A00'/>
+<L f='E024BA4E35A34F21C7D811E6A71100059A3C7A00' s='E024BA4E35A34F20C7D811E6811600059A3C7A00'/>
+<L f='E0C4897FE8CF5F59F49311E6990E00059A3C7A00' s='E0C4897FE8CF5F58F49311E69A3500059A3C7A00'/>
+<L f='E0C4897FE8CF9565F49311E6AB1D00059A3C7A00' s='E0C4897FE8CF9564F49311E6BC6000059A3C7A00'/>
+<L f='E0C4897FE8D03F2AF49311E6970600059A3C7A00' s='E0C4897FE8D03F29F49311E6B1E000059A3C7A00'/>
+<L f='E0C4897FE8D06979F49311E68C3700059A3C7A00' s='E0C4897FE8D06978F49311E6A50400059A3C7A00'/>
+<L f='E0C4897FE8D0B8FDF49311E6A9FA00059A3C7A00' s='E0C4897FE8D0B8FCF49311E6BCE900059A3C7A00'/>
+<L f='E0C4897FE8D16F35F49311E693E200059A3C7A00' s='E0C4897FE8D16F34F49311E6954F00059A3C7A00'/>
+<L f='E0C4897FE8D20B03F49311E6C30A00059A3C7A00' s='E0C4897FE8D20B02F49311E6B33000059A3C7A00'/>
+<L f='E04BA0349960C885C7DC11E6BD9100059A3C7A00' s='E0C792CE9A1AC678C7D611E69D0600059A3C7A00'/>
+<L f='E04BA0349960806FC7DC11E6988E00059A3C7A00' s='E0C792CE9A1BB620C7D611E6860F00059A3C7A00'/>
+<L f='E04BA034995F5842C7DC11E68DB400059A3C7A00' s='E0C792CE9A1C80CBC7D611E6989A00059A3C7A00'/>
+<L f='E04BA0349960235CC7DC11E6844A00059A3C7A00' s='E0C792CE9A1D1A52C7D611E6C52C00059A3C7A00'/>
+<L f='E04BA034996094A8C7DC11E6BA6900059A3C7A00' s='E0C792CE9A401F39C7D611E6BFCF00059A3C7A00'/>
+<L f='E04BA034995FD363C7DC11E6C06200059A3C7A00' s='E0C792CE9A44FCACC7D611E6C45E00059A3C7A00'/>
+<L f='E04BA034995FE5B6C7DC11E6A12100059A3C7A00' s='E0C792CE9A457D2EC7D611E6A88400059A3C7A00'/>
+<L f='E04BA0349960E8E8C7DC11E6847600059A3C7A00' s='E0C792CE9A467B7EC7D611E6CE6900059A3C7A00'/>
+<L f='E04BA034995FB546C7DC11E69B7300059A3C7A00' s='E0C792CE9A46FFD9C7D611E6CECD00059A3C7A00'/>
+<L f='E04BA0349960235DC7DC11E6B53B00059A3C7A00' s='E0C792CE9A5D8CEDC7D611E69FC500059A3C7A00'/>
+<L f='E04BA034995F7D44C7DC11E6980300059A3C7A00' s='E0C792CE9A611878C7D611E6B01000059A3C7A00'/>
+<L f='E04BA034995F7D45C7DC11E68CCC00059A3C7A00' s='E0C792CE9A619D28C7D611E69D1D00059A3C7A00'/>
+<L f='E04BA034996094A7C7DC11E681BD00059A3C7A00' s='E0C792CE9A627C40C7D611E6BEB500059A3C7A00'/>
+<L f='E04BA03499603501C7DC11E6A66B00059A3C7A00' s='E0C792CE9A63053FC7D611E6988000059A3C7A00'/>
+<L f='E04BA0349960C884C7DC11E6AD0F00059A3C7A00' s='E0C792CE9A7B6671C7D611E6C37900059A3C7A00'/>
+<L f='E04BA034995FB547C7DC11E6C86600059A3C7A00' s='E0C792CE9A86EC3BC7D611E6C3F100059A3C7A00'/>
+<L f='E04BA034995FE5B5C7DC11E6B16900059A3C7A00' s='E0C792CE9A876755C7D611E69C4E00059A3C7A00'/>
+<L f='E04BA03499603502C7DC11E6B71B00059A3C7A00' s='E0C792CE9A88663EC7D611E69D0800059A3C7A00'/>
+<L f='E04BA034995F389BC7DC11E6916800059A3C7A00' s='E0C792CE9A88CF0DC7D611E6B63D00059A3C7A00'/>
+<L f='E04BA0349960E8E9C7DC11E69F2400059A3C7A00' s='E0C792CE9AA2CF1EC7D611E6864600059A3C7A00'/>
+<L f='E04BA034995FE5B7C7DC11E6A68D00059A3C7A00' s='E0C792CE9AA3557AC7D611E6B45900059A3C7A00'/>
+<L f='E04BA034996094A6C7DC11E6A56200059A3C7A00' s='E0C792CE9AA46C35C7D611E68CB200059A3C7A00'/>
+<L f='E04BA034995F389AC7DC11E6A71900059A3C7A00' s='E0C792CE9AA508FEC7D611E6878D00059A3C7A00'/>
+<L f='E04BA03499608070C7DC11E69DC800059A3C7A00' s='E0C792CE9ABA8CAEC7D611E683C800059A3C7A00'/>
+<L f='E04BA034995FD362C7DC11E6C33F00059A3C7A00' s='E0C792CE9ABE119BC7D611E6CE4E00059A3C7A00'/>
+<L f='E04BA03499603503C7DC11E6AE6200059A3C7A00' s='E0C792CE9ABE8EF0C7D611E6848F00059A3C7A00'/>
+<L f='E04BA034995FB548C7DC11E6AFD500059A3C7A00' s='E0C792CE9ABF75CFC7D611E6CC9900059A3C7A00'/>
+<L f='E04BA034995F5843C7DC11E6C8C800059A3C7A00' s='E0C792CE9ABFDE2BC7D611E680C900059A3C7A00'/>
+<L f='E04BA034995F1F97C7DC11E6BB4D00059A3C7A00' s='E0C792CE9AD445CBC7D611E68C0F00059A3C7A00'/>
+<L f='E0EA895936A23C44C7DD11E695D400059A3C7A00' s='E0EA895936A23C43C7DD11E69BED00059A3C7A00'/>
+<L f='E0EA895936A2C641C7DD11E6CF3E00059A3C7A00' s='E0EA895936A2C640C7DD11E6C33500059A3C7A00'/>
+<L f='E0EA89594B3FF140C7DD11E6B1E100059A3C7A00' s='E0EA89594B3FF13FC7DD11E6BB5500059A3C7A00'/>
+<L f='E0EA89594B4082A6C7DD11E6898E00059A3C7A00' s='E0EA89594B4082A5C7DD11E6AF2100059A3C7A00'/>
+<L f='E0EA89594B40A4ADC7DD11E68C3600059A3C7A00' s='E0EA89594B40A4ACC7DD11E6A92D00059A3C7A00'/>
+<L f='E0EA89594B40F6F1C7DD11E6BE7300059A3C7A00' s='E0EA89594B40F6F0C7DD11E6BA8F00059A3C7A00'/>
+<L f='E0EA89594B413224C7DD11E6A06600059A3C7A00' s='E0EA89594B413223C7DD11E68F3200059A3C7A00'/>
+<L f='E04BA034995F3899C7DC11E6BA1700059A3C7A00' s='E0EE4DB2B203F390C7D611E6834400059A3C7A00'/>
+</Galaxy.Rule.ReferenceHasQName>
+</Partition>

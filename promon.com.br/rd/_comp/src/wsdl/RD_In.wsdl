@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/Colaboradores" xmlns:p2="http://rd.la.logicalis.com/web-service/funcionarios" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="RD_In" targetNamespace="http://promon.com.br/Colaboradores">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>7bf7127ae29611e6b0420000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1485304819047"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:server:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="2d8f1df7864335a1a0cdf71597915a68"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="colaboradoresRD_In">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>true</ifw:isInbound>
+        <ifw:interfaceCategory>inbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="p2.funcionariosIn">
+        <ifw:messType>ifmextmes</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">RDService</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/Common</ifw:elem>
+          <ifw:elem id="SUBNAME">funcionariosIn</ifw:elem>
+          <ifw:elem id="SUBNAMESPACE">http://rd.la.logicalis.com/web-service/funcionarios</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/Common</ifw:technicalNamespace>
+        <ifw:VersionID>590af5e5e29611e69ad10000006543a2</ifw:VersionID>
+      </ifw:message>
+      <ifw:message name="p2.funcionariosOut">
+        <ifw:messType>ifmextmes</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">RDService</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/Common</ifw:elem>
+          <ifw:elem id="SUBNAME">funcionariosOut</ifw:elem>
+          <ifw:elem id="SUBNAMESPACE">http://rd.la.logicalis.com/web-service/funcionarios</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/Common</ifw:technicalNamespace>
+        <ifw:VersionID>590af5e5e29611e69ad10000006543a2</ifw:VersionID>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>5910b6a0a67911e69345ef270ae80122</ifw:guid>
+        <ifw:name>RD, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_2d8f1df7864335a1a0cdf71597915a68_ifmmessif</name>
+        <namespace>http://promon.com.br/Colaboradores</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_colaboradoresRD_In"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://rd.la.logicalis.com/web-service/funcionarios" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://rd.la.logicalis.com/web-service/funcionarios">
+      <xsd:element name="funcionarios">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" name="funcionario" type="funcionario"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="funcionariosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="funcionariosResult" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="msgError" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="funcionario">
+        <xsd:sequence>
+          <xsd:element name="registro" type="xsd:string"/>
+          <xsd:element name="nome" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="apelido" nillable="true" type="xsd:string"/>
+          <xsd:element name="email" type="xsd:string"/>
+          <xsd:element name="data_nascimento" type="xsd:date"/>
+          <xsd:element minOccurs="0" name="endereco" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="bairro" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="complemento" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="cep" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="ramal" nillable="true" type="xsd:int"/>
+          <xsd:element name="rg" type="xsd:string"/>
+          <xsd:element name="cpf" type="xsd:string"/>
+          <xsd:element name="pis" type="xsd:string"/>
+          <xsd:element name="data_admissao" type="xsd:date"/>
+          <xsd:element minOccurs="0" name="data_demissao" nillable="true" type="xsd:date"/>
+          <xsd:element minOccurs="0" name="id_cidade_funcionario_totvs" nillable="true" type="xsd:int"/>
+          <xsd:element minOccurs="0" name="registro_gestor" nillable="true" type="xsd:string"/>
+          <xsd:element name="apontamento_via_relogio_ponto" type="xsd:boolean"/>
+          <xsd:element name="id_cargo_totvs" type="xsd:int"/>
+          <xsd:element name="descricao_cargo_totvs" type="xsd:string"/>
+          <xsd:element name="cargo_confianca" type="xsd:int"/>
+          <xsd:element name="codigo_categoria_horaria" type="xsd:int"/>
+          <xsd:element name="descricao_categoria_horaria" type="xsd:string"/>
+          <xsd:element name="codigo_lotacao" type="xsd:string"/>
+          <xsd:element name="descricao_lotacao" type="xsd:string"/>
+          <xsd:element name="id_localidade_base_totvs" type="xsd:int"/>
+          <xsd:element name="nome_localidade" type="xsd:string"/>
+          <xsd:element name="cep_localidade" type="xsd:string"/>
+          <xsd:element name="id_cidade_localidade_totvs" type="xsd:int"/>
+          <xsd:element name="nome_cidade_localidade" type="xsd:string"/>
+          <xsd:element name="id_uf_localidade_totvs" type="xsd:int"/>
+          <xsd:element name="nome_uf_localidade" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="sigla_uf_localidade" nillable="true" type="xsd:string"/>
+          <xsd:element name="endereco_localidade" type="xsd:string"/>
+          <xsd:element name="bairro_localidade" type="xsd:string"/>
+          <xsd:element name="numero_localidade" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="complemento_localidade" nillable="true" type="xsd:string"/>
+          <xsd:element name="cnpj" type="xsd:string"/>
+          <xsd:element name="id_disciplina_totvs" type="xsd:int"/>
+          <xsd:element name="descricao_disciplina" type="xsd:string"/>
+          <xsd:element name="id_empresa_totvs" type="xsd:int"/>
+          <xsd:element name="descricao_empresa" type="xsd:string"/>
+          <xsd:element name="id_pais_localidade_totvs" type="xsd:int"/>
+          <xsd:element name="nome_localidade_pais" type="xsd:string"/>
+          <xsd:element name="locale_pais" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="p2.funcionariosIn">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:funcionarios" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="p2.funcionariosOut">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:funcionariosResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="RD_In">
+    <wsdl:documentation/>
+    <wsdl:operation name="colaboradoresRD_In">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_colaboradoresRD_In"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:p2.funcionariosIn"/>
+      <wsdl:output message="p1:p2.funcionariosOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RD_InBinding" type="p1:RD_In">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="colaboradoresRD_In">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

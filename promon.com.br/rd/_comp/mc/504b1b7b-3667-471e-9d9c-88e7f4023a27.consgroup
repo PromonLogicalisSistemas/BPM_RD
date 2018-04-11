@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.LogicalSystem' i='471DAFAC55EC9E66814111DCC42E003005C6B92C'/>
+<mc.logicalsystem.LogicalSystem m:c='1' m:i='E0559EB26DD6C8F7C0D411E6AD9000059A3C7A00' name='SAP_PI' origin='' guid='504b1b7b-3667-471e-9d9c-88e7f4023a27' isLocalProviderSystem='false'>
+<displayName maxWidth='120' originalText='SAP_PI' resType='label' translate='false' transUnitId='6DD6C8F6C0D411E69D3A00059A3C7A00' resName='504b1b7b-3667-471e-9d9c-88e7f4023a27.consgroup.name'/>
+<description maxWidth='120' originalText='SAP Process Integration' resType='description' translate='true' transUnitId='6DD6C8F5C0D411E68DDD00059A3C7A00' resName='504b1b7b-3667-471e-9d9c-88e7f4023a27.consgroup.description'/>
+</mc.logicalsystem.LogicalSystem>
+</Partition>

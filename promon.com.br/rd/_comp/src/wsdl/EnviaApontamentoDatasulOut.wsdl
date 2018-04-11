@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/EnviaApontamento" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="EnviaApontamentoDatasulOut" targetNamespace="http://promon.com.br/EnviaApontamento">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>3e14f85b2a2111e7a1800000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1493170844585"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="8492434de5cd3606aa19092e52e19fc2"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="EnviaApontamentoDatasulOut">
+        <ifw:isSynchron>false</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_async"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="EnviaApontamentoDatasulRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">EnviaApontamentoDatasulRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/EnviaApontamento</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/EnviaApontamento</ifw:technicalNamespace>
+        <ifw:VersionID>d6c501362a2011e7b4a00000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/EnviaApontamento</ifw:xmlNamespace>
+        <ifw:dataType name="EnviaApontamentoDatasulRequest" namespace="http://promon.com.br/EnviaApontamento" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=EnviaApontamentoDatasulRequest~namespace=http://promon.com.br/EnviaApontamento~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>5910b6a0a67911e69345ef270ae80122</ifw:guid>
+        <ifw:name>RD, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_8492434de5cd3606aa19092e52e19fc2_ifmmessif</name>
+        <namespace>http://promon.com.br/EnviaApontamento</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_EnviaApontamentoDatasulOut"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://promon.com.br/EnviaApontamento" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/EnviaApontamento">
+      <xsd:element name="EnviaApontamentoDatasulRequest" type="EnviaApontamentoDatasulRequest"/>
+      <xsd:complexType name="EnviaApontamentoDatasulRequest">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="apontamentos">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="nsr" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="registro" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="data" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="horario" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="quantidadeHoras" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="tipo" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="justificativaAjuste" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="EnviaApontamentoDatasulRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:EnviaApontamentoDatasulRequest" name="EnviaApontamentoDatasulRequest"/>
+  </wsdl:message>
+  <wsdl:portType name="EnviaApontamentoDatasulOut">
+    <wsdl:documentation/>
+    <wsdl:operation name="EnviaApontamentoDatasulOut">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_EnviaApontamentoDatasulOut"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:EnviaApontamentoDatasulRequest"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EnviaApontamentoDatasulOutBinding" type="p1:EnviaApontamentoDatasulOut">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="EnviaApontamentoDatasulOut">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

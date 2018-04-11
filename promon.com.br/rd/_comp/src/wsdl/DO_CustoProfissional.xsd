@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tns="http://promon.com.br/rd/CustoProfissional" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://promon.com.br/rd/CustoProfissional">  
+	<xsd:complexType name="CustoProfissionalContext">
+		<xsd:sequence>
+			<xsd:element name="dat_refer" type="xsd:date"/>
+			<xsd:element name="CustoProfissional" type="tns:CustoProfissionalTab"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="CustoProfissionalRow">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="cdn_funcionario" type="xsd:int"/>
+            <xsd:element minOccurs="0" name="val_custo_hora" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="CustoProfissionalTab">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" minOccurs="0" name="CustoProfissional" type="tns:CustoProfissionalRow"/>
+		</xsd:sequence>
+	</xsd:complexType>  
+</xsd:schema>

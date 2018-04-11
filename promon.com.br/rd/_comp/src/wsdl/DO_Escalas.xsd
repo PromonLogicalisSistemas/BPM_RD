@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tns="http://promon.com.br/rd/escalas" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://promon.com.br/rd/escalas">  
+	<xsd:complexType name="EscalasContext">
+		<xsd:sequence>
+			<xsd:element name="mes" type="xsd:int"/>
+			<xsd:element name="ano" type="xsd:int"/>
+			<xsd:element maxOccurs="unbounded" minOccurs="0" name="Escalas" type="tns:escalasRow"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="escalasRow">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="cdn_funcionario" type="xsd:int"/>
+			<xsd:element minOccurs="0" name="num_dia" type="xsd:int"/>
+			<xsd:element minOccurs="0" name="cod_tipo_dia" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="hra_ini_jornada" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="hra_fim_jornada" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

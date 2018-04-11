@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/PoParameters" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="PoParameter" targetNamespace="http://promon.com.br/PoParameters">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>fa4e1d58f31a11e6a1320000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1487121613893"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="c1863c78d4ab347a94ae3b72f0a3fbf7"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="SET">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+      <ifw:method name="GET">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="mtParamSaveIn_response">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">mtParamSaveIn_response</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/PoParameters</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/PoParameters</ifw:technicalNamespace>
+        <ifw:VersionID>d53d5bebf31811e6b9200000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/PoParameters</ifw:xmlNamespace>
+        <ifw:dataType name="dtParamSaveResp" namespace="http://promon.com.br/PoParameters" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=dtParamSaveResp~namespace=http://promon.com.br/PoParameters~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+      <ifw:message name="mtParamGetOut">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">mtParamGetOut</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/PoParameters</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/PoParameters</ifw:technicalNamespace>
+        <ifw:VersionID>e60de348f31911e6aaae0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/PoParameters</ifw:xmlNamespace>
+        <ifw:dataType name="dtParamGetOut" namespace="http://promon.com.br/PoParameters" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=dtParamGetOut~namespace=http://promon.com.br/PoParameters~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+      <ifw:message name="mtParamSaveOut">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">mtParamSaveOut</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/PoParameters</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/PoParameters</ifw:technicalNamespace>
+        <ifw:VersionID>4df1e6d1deac11e681d50000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/PoParameters</ifw:xmlNamespace>
+        <ifw:dataType name="dtParamSaveOut" namespace="http://promon.com.br/PoParameters" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=dtParamSaveOut~namespace=http://promon.com.br/PoParameters~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+      <ifw:message name="mtParamGet_resp">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">mtParamGet_resp</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/PoParameters</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/PoParameters</ifw:technicalNamespace>
+        <ifw:VersionID>4430ebb8f31c11e6ca9d0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/PoParameters</ifw:xmlNamespace>
+        <ifw:dataType name="dtParamGet_resp" namespace="http://promon.com.br/PoParameters" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=dtParamGet_resp~namespace=http://promon.com.br/PoParameters~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>5910b6a0a67911e69345ef270ae80122</ifw:guid>
+        <ifw:name>RD, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_c1863c78d4ab347a94ae3b72f0a3fbf7_ifmmessif</name>
+        <namespace>http://promon.com.br/PoParameters</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_SET"/>
+  <wsp:Policy wsu:Id="OP_GET"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://promon.com.br/PoParameters" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/PoParameters">
+      <xsd:element name="mtParamGetOut" type="dtParamGetOut"/>
+      <xsd:element name="mtParamSaveOut" type="dtParamSaveOut"/>
+      <xsd:element name="mtParamGet_resp" type="dtParamGet_resp"/>
+      <xsd:element name="mtParamSaveIn_response" type="dtParamSaveResp"/>
+      <xsd:complexType name="dtParamGetOut">
+        <xsd:sequence>
+          <xsd:element name="CallerId" type="xsd:string"/>
+          <xsd:element name="ParamId" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="dtParamGet_resp">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="CallerId" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="ParamId" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="UDate" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="Value" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="dtParamSaveOut">
+        <xsd:sequence>
+          <xsd:element name="CallerId" type="xsd:string"/>
+          <xsd:element name="ParamId" type="xsd:string"/>
+          <xsd:element name="Value" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="dtParamSaveResp">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="STATEMENT_response">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="update_count" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="insert_count" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="mtParamSaveOut">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:mtParamSaveOut" name="mtParamSaveOut"/>
+  </wsdl:message>
+  <wsdl:message name="mtParamSaveIn_response">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:mtParamSaveIn_response" name="mtParamSaveIn_response"/>
+  </wsdl:message>
+  <wsdl:message name="mtParamGetOut">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:mtParamGetOut" name="mtParamGetOut"/>
+  </wsdl:message>
+  <wsdl:message name="mtParamGet_resp">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:mtParamGet_resp" name="mtParamGet_resp"/>
+  </wsdl:message>
+  <wsdl:portType name="PoParameter">
+    <wsdl:documentation/>
+    <wsdl:operation name="SET">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SET"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:mtParamSaveOut"/>
+      <wsdl:output message="p1:mtParamSaveIn_response"/>
+    </wsdl:operation>
+    <wsdl:operation name="GET">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_GET"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:mtParamGetOut"/>
+      <wsdl:output message="p1:mtParamGet_resp"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PoParameterBinding" type="p1:PoParameter">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SET">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

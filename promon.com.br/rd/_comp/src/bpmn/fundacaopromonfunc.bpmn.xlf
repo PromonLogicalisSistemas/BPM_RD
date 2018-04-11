@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xliff version="1.1" xmlns="urn:oasis:names:tc:xliff:document:1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<file tool="MOIN S2X File Generator" original="self" source-language="en" product-name="MOIN S2X File Generator" datatype="s2x">
+<header>
+<skl>
+</skl>
+<phase-group>
+</phase-group>
+<s2x xmlns="http://www.sap.com">
+<dtr>
+<dc></dc>
+<rel></rel>
+<sc></sc>
+</dtr>
+<giltDirectives>
+<develContact></develContact>
+<domain></domain>
+<collection></collection>
+<originalLocale xml:lang="en"/>
+<maxLength>255</maxLength>
+</giltDirectives>
+</s2x>
+</header>
+<body>
+<group restype="generaltext">
+<trans-unit id="140B69679A6311E7BC0300059A3C7A00" resname="712200a2fa4e33d8b970f6051ff2b46f" maxwidth="255" translate="yes"><source>FundacaoPromonFunc</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="140C4EDD9A6311E780B100059A3C7A00" resname="5b6dff9e5bdb3b04bd3adff64fa0ef82" maxwidth="255" translate="no"><source>FundacaoPromonFunc</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1419CFD79A6311E79E8900059A3C7A00" resname="f30990438dce37cea0e7edbc4bbd01f2" maxwidth="255" translate="no"><source>TextVariables</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="141B29B49A6311E7991A00059A3C7A00" resname="c05240dfdd703dfb958448bd09a6e143" maxwidth="255" translate="no"><source>TextVariables_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="142057E39A6311E78F8F00059A3C7A00" resname="060a5d9472293e0995a26837e1bef32b" maxwidth="255" translate="no"><source>ProcessInstanceAttributes</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="142431B49A6311E7908F00059A3C7A00" resname="471153ac6fce378385b10bf8c30fbb4b" maxwidth="255" translate="no"><source>Administrators</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1424A1959A6311E7831500059A3C7A00" resname="2d60b0124b203f04aa7b29681cf43b67" maxwidth="255" translate="no"><source>Administrators_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="147125F99A6311E794F000059A3C7A00" resname="ec70a44367c13e0986d2c147d7cb838a" maxwidth="255" translate="no"><source>FundacaoPromonFunc</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="147349839A6311E7882E00059A3C7A00" resname="617c6f7a5c253cdfbd98fc17eb0a6ec8" maxwidth="255" translate="no"><source>FundacaoPromonFunc_PotentialOwners</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1473765D9A6311E7A0BE00059A3C7A00" resname="58ca724d92d736aaa0afa657c822f2ec" maxwidth="255" translate="no"><source>Default_PotentialOwners_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="149D0FF29A6311E7965200059A3C7A00" resname="5e314c6752f63a4096461f54785bec2a" maxwidth="255" translate="no"><source>FundacaoPromonFunc_ExcludedOwners</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="149D422D9A6311E78D2A00059A3C7A00" resname="02613b2ac2f33efd9ef59855adbbb2fe" maxwidth="255" translate="no"><source>Default_ExcludedOwners_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14D6076B9A6311E7A62F00059A3C7A00" resname="39a575bd76e63e30b2c551702ce84d3d" maxwidth="255" translate="no"><source>Main</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14D667909A6311E7AE9800059A3C7A00" resname="8e07a99b8039388e91867f696096c82d" maxwidth="255" translate="yes"><source>Main</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14D8728D9A6311E7AF2B00059A3C7A00" resname="a7680c7b5f6f374591949253baee2b8c" maxwidth="255" translate="no"><source>TextVariables</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14D9061B9A6311E79B3000059A3C7A00" resname="4da290b037ab3661a0b6bc2fc298d94b" maxwidth="255" translate="no"><source>TextVariables_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14DBF1C89A6311E7883B00059A3C7A00" resname="df2f649fd75d3a0f9349a20de135f9e0" maxwidth="255" translate="no"><source>ProcessInstanceAttributes</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14DE5F549A6311E7A98300059A3C7A00" resname="5b412187842635cb997d414120321f30" maxwidth="255" translate="no"><source>Administrators</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14DE768F9A6311E7A3CB00059A3C7A00" resname="3281014051d03dab86212fd00edbf642" maxwidth="255" translate="no"><source>Administrators_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14F8E7E49A6311E7CD2F00059A3C7A00" resname="d0f2007f3d7e3ac38230026fe95474a9" maxwidth="255" translate="no"><source>Main</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14FB5C889A6311E7B14100059A3C7A00" resname="7e4e8caa7be43294b551c227eb554c84" maxwidth="255" translate="no"><source>Main_PotentialOwners</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14FBA11E9A6311E7AF7C00059A3C7A00" resname="ed209fdd625f30cf9bea03dcb5434609" maxwidth="255" translate="no"><source>Main_PotentialOwners_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1516AB5D9A6311E782C400059A3C7A00" resname="4011b1a43c4b37b4b8d8c354799d4372" maxwidth="255" translate="no"><source>Main_ExcludedOwners</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="15171D319A6311E7875600059A3C7A00" resname="81bf4b81f41c362c9b7763780ee2c1fd" maxwidth="255" translate="no"><source>Main_ExcludedOwners_Mapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1553E2DC9A6311E7B7F700059A3C7A00" resname="828ba494772337489c6852e8779fe3db" maxwidth="255" translate="no"><source>Início</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="155567A89A6311E793DF00059A3C7A00" resname="5dc17d1a0a0e34d9b9e4464e6523be89" maxwidth="255" translate="no"><source>Início_OutputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="155918429A6311E7B19700059A3C7A00" resname="d7d417d2edbd377395748c92365b5d33" maxwidth="255" translate="no"><source>Fim</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="1559888C9A6311E78C1E00059A3C7A00" resname="d1337545803e32ac825705b06d559103" maxwidth="255" translate="no"><source>Fim_InputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="42EC48E39A6511E7C6D900059A3C7A00" resname="fc9175e1d09431d4891ecf2894cc57df" maxwidth="255" translate="no"><source>DO_FuncionariosContext</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="839D807D9A6611E7CC4100059A3C7A00" resname="27ab3e3088163b659afe5599ad10d052" maxwidth="255" translate="yes"><source>Envia Funcionarios Fundacao</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="839D956D9A6611E79C2200059A3C7A00" resname="25d016820cde3215940fe757ecc0a989" maxwidth="255" translate="no"><source>Automatizado 1_InputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="839D956F9A6611E7A7CB00059A3C7A00" resname="5f02027d0b3738be8c165d11e344c23b" maxwidth="255" translate="no"><source>Automatizado 1_OutputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="FBE6C8709A6511E7AF7D00059A3C7A00" resname="0bd0f02ef88b3c05a37c85edcd61e392" maxwidth="255" translate="yes"><source>Busca Funcionarios Datasul</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="FBE75C189A6511E7CDC000059A3C7A00" resname="5cf1539855c63dd7a5475daff1e3d7c1" maxwidth="255" translate="no"><source>Automatizado 0_InputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="FBE7AE149A6511E7946D00059A3C7A00" resname="3a3c090b7a7832acb0d2eb789e168c07" maxwidth="255" translate="no"><source>Automatizado 0_OutputMapping</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+</group>
+<group restype="description">
+<trans-unit id="142431B59A6311E7C87500059A3C7A00" resname="3051ed13b62532b99753ecf27c298831" maxwidth="16380" translate="no"><source>Role for Admins</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+<trans-unit id="14DE5F559A6311E792F400059A3C7A00" resname="6619aa740cc93973b788361da39afe4d" maxwidth="16380" translate="no"><source>Role for Admins</source><s2x xmlns="http://www.sap.com"><textState>new</textState></s2x></trans-unit>
+</group>
+</body>
+</file>
+</xliff>

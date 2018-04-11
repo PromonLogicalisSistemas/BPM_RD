@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://promon.com.br/HorasDiferenciadas" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/HorasDiferenciadas">
+   <xsd:complexType name="horasDiferenciadasResponse">
+      <xsd:sequence>
+         <xsd:element name="ttHorasDif">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element maxOccurs="unbounded" minOccurs="0" name="ttHorasDifRow">
+                     <xsd:complexType>
+                        <xsd:sequence>
+                           <xsd:element name="cdn_funcionario" type="xsd:integer"/>
+                           <xsd:element name="dat_hora" type="xsd:date"/>
+                           <xsd:element name="qtd_hora" type="xsd:decimal"/>
+                           <xsd:element name="qtd_fator" type="xsd:decimal"/>
+                           <xsd:element name="cod_evento" type="xsd:string"/>
+                        </xsd:sequence>
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+      </xsd:sequence>
+   </xsd:complexType>
+      <xsd:complexType name="horasDiferenciadasInput">
+      <xsd:sequence>
+         <xsd:element name="num_mes_ref" type="xsd:integer"/>
+         <xsd:element name="num_ano_ref" type="xsd:integer"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="horasDiferenciadasContext">
+      <xsd:sequence>
+         <xsd:element name="input" type="horasDiferenciadasInput"/>
+         <xsd:element name="data" type="horasDiferenciadasResponse"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>

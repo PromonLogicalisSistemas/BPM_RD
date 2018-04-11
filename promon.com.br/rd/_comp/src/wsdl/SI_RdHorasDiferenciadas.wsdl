@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/HorasDiferenciadas" xmlns:p2="urn:totvs:ws1:logicalis:ColaboradoresService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SI_RdHorasDiferenciadas" targetNamespace="http://promon.com.br/HorasDiferenciadas">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>decdc18ff47511e7c9c60000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1515417276694"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="7b404ceeb3a938e2a81f5fc2a10da448"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="getHorasDiferenciadasRD">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="horasDiferenciadas">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">horasDiferenciadas</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/HorasDiferenciadas</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/HorasDiferenciadas</ifw:technicalNamespace>
+        <ifw:VersionID>4f1a4970f47b11e7a37d0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>urn:totvs:ws1:logicalis:ColaboradoresService</ifw:xmlNamespace>
+        <ifw:dataType name="horasDiferenciadas" namespace="http://promon.com.br/HorasDiferenciadas" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=horasDiferenciadas~namespace=http://promon.com.br/HorasDiferenciadas~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+      <ifw:message name="horasDiferenciadasResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">horasDiferenciadasResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/HorasDiferenciadas</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/HorasDiferenciadas</ifw:technicalNamespace>
+        <ifw:VersionID>fb0a950cf48611e788470000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>urn:totvs:ws1:logicalis:ColaboradoresService</ifw:xmlNamespace>
+        <ifw:dataType name="horasDiferenciadasResponse" namespace="http://promon.com.br/HorasDiferenciadas" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=horasDiferenciadasResponse~namespace=http://promon.com.br/HorasDiferenciadas~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>5910b6a0a67911e69345ef270ae80122</ifw:guid>
+        <ifw:name>RD, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_7b404ceeb3a938e2a81f5fc2a10da448_ifmmessif</name>
+        <namespace>http://promon.com.br/HorasDiferenciadas</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_getHorasDiferenciadasRD"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:totvs:ws1:logicalis:ColaboradoresService" xmlns:p4="http://promon.com.br/HorasDiferenciadas" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:totvs:ws1:logicalis:ColaboradoresService">
+      <xsd:import namespace="http://promon.com.br/HorasDiferenciadas"/>
+      <xsd:element name="horasDiferenciadas" type="p4:horasDiferenciadas"/>
+      <xsd:element name="horasDiferenciadasResponse" type="p4:horasDiferenciadasResponse"/>
+    </xsd:schema>
+    <xsd:schema xmlns="http://promon.com.br/HorasDiferenciadas" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/HorasDiferenciadas">
+      <xsd:complexType name="horasDiferenciadasResponse">
+        <xsd:sequence>
+          <xsd:element name="ttHorasDif">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" minOccurs="0" name="ttHorasDifRow">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="cdn_funcionario" type="xsd:integer"/>
+                      <xsd:element name="dat_hora" type="xsd:date"/>
+                      <xsd:element name="qtd_hora" type="xsd:decimal"/>
+                      <xsd:element name="qtd_fator" type="xsd:decimal"/>
+                      <xsd:element name="cod_evento" type="xsd:string"/>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="horasDiferenciadas">
+        <xsd:sequence>
+          <xsd:element name="num_mes_ref" type="xsd:integer"/>
+          <xsd:element name="num_ano_ref" type="xsd:integer"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="horasDiferenciadas">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:horasDiferenciadas" name="horasDiferenciadas"/>
+  </wsdl:message>
+  <wsdl:message name="horasDiferenciadasResponse">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:horasDiferenciadasResponse" name="horasDiferenciadasResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="SI_RdHorasDiferenciadas">
+    <wsdl:documentation/>
+    <wsdl:operation name="getHorasDiferenciadasRD">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_getHorasDiferenciadasRD"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:horasDiferenciadas"/>
+      <wsdl:output message="p1:horasDiferenciadasResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_RdHorasDiferenciadasBinding" type="p1:SI_RdHorasDiferenciadas">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getHorasDiferenciadasRD">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

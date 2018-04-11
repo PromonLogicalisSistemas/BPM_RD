@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tns="http://promon.com.br/rd/pagtoFolha"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+	targetNamespace="http://promon.com.br/rd/pagtoFolha">
+	<xsd:complexType name="pagoFolhaContext">
+		<xsd:sequence>
+			<xsd:element name="num_mes_ref" type="xsd:int" />
+			<xsd:element name="num_ano_ref" type="xsd:int" />
+			<xsd:element name="resultRD" nillable="true" type="xsd:boolean" />
+			<xsd:element name="resultECC" nillable="true" type="xsd:boolean" />
+			<xsd:element name="pagoFolha" type="tns:pagoFolhaTab" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="pagoFolhaRow">
+		<xsd:sequence>
+			<xsd:element name="ZLEGA" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZOPER" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZSEQU" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZBUKRS" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZUSNAM1" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZINPUT1" type="xsd:date" minOccurs="0" />
+			<xsd:element name="ZHRINP1" type="xsd:time" minOccurs="0" />
+			<xsd:element name="ZLCTO" type="xsd:date" minOccurs="0" />
+			<xsd:element name="ZMONAT" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZBCF" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZAGF" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZCCF" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZNAME" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZCPF" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZCNPJ" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZCURK" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZREFA" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZDMBTR" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZDEUDT" type="xsd:date" minOccurs="0" />
+			<xsd:element name="ZPOSID" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZKOSTL" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZAUFNR" type="xsd:string" minOccurs="0" />
+			<xsd:element name="ZEMP_LEGADO" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="ZCPF_LEGADO" type="xsd:string"
+				minOccurs="0" />
+			<xsd:element name="STATUS" type="xsd:string" minOccurs="0" />
+			<xsd:element name="MSG" type="xsd:string" minOccurs="0" />
+			<xsd:element name="WS" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="pagoFolhaTab">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" minOccurs="0" name="pagoFolha"
+				type="tns:pagoFolhaRow" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

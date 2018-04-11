@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/glx/ide' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<C n='sap.com/tc/moin/util' i='3' v='1.0.0'/>
+<M c='1' q='Galaxy.Workflow.MessageEventDefinition' i='47BEE014D666B539E15411DCB9A7001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.MessageEventDefinitionHasOperation' i='47C2D91202ED4EB5E3B311DCC463001558C33B4F' se='1' ce='-1' oe='-1'/>
+<M c='3' q='properties.PropertyBag' i='493E63563C546320C5EC11DD9396001999375840'/>
+<properties.PropertyBag m:c='3' m:i='E01CFA89439835169BB111E7B94000059A3C7A00' id='PartitionCreationInfo'>
+<properties key='creatorId' value='com.sap.glx.ide'/>
+<properties key='creatorVersion' value='2.0.0'/>
+</properties.PropertyBag>
+<Galaxy.Workflow.MessageEventDefinition m:c='1' m:i='E0C851174396BCB09BB111E7BE5D00059A3C7A00' nameTranslatable='false' documentationTranslatable='true'>
+<name maxWidth='255' originalText='FundacPromonFuncionariosStarter' resType='generaltext' translate='false' transUnitId='43973F9E9BB111E7888B00059A3C7A00'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='439765039BB111E78BE600059A3C7A00'/>
+</Galaxy.Workflow.MessageEventDefinition>
+<Galaxy.Workflow.MessageEventDefinitionHasOperation c='1'>
+<L f='local:E02C978B1757F6EC9BB111E7CBF800059A3C7A00' s='E0C851174396BCB09BB111E7BE5D00059A3C7A00'/>
+</Galaxy.Workflow.MessageEventDefinitionHasOperation>
+</Partition>

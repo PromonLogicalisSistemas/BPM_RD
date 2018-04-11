@@ -1,0 +1,1024 @@
+Development Component Build (2018-03-26 13:35:24 GMT-03:00 (BRT))
+  Component name: rd
+  Component vendor: promon.com.br
+  SC compartment: PO
+  Configuration: PO
+  Location: PO
+  Source code location: marce@MAVNOTE01
+  DC root folder: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\
+  DC type: Process Composer
+  Host: MAVNOTE01
+
+DC Model check:
+   DC is available locally
+   validating dependency to build plugin "sap.com/tc/bpem/bi/bp/buildtool"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/maas"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/xi"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/ide/es/config/mc/model/bi"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/tc/moin/bi/model/textverticalization"
+   validating dependency to  public part "def" of DC "sap.com/tc/moin/bi/moinext"
+   validating dependency to  public part "libinf" of DC "sap.com/tc/moin/bi/moinlibs"
+   DC model check OK
+
+Start build plugin:
+   using build plugin: sap.com/tc/bpem/bi/bp/buildtool
+   starting build plugin from : C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\BPEM-BUILDT\sap.com\tc\bpem\bi\bp\buildtool\_comp\gen\default\public\def\
+
+
+
+Build Plugin 'sap.com/tc/bpem/bi/bp/buildtool', Version 7.30 SP 5 (NW750CORE_05_REL, built on 2016-09-05 17:27:09 +0200, CL239773)
+   development component:  rd (promon.com.br)
+      software component:  PO (promon.com.br)
+                location:  PO
+                    type:  Process Composer
+           build variant:  default
+         source location:  marce@MAVNOTE01
+         output location:  C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default
+       generation folder:  C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t\2DDDB51D71A3ED766DE7421FC7511C4E
+       plugin start time:  2018-03-26 13:35:25 GMT-03:00 (BRT)
+                 Java VM:  Java HotSpot(TM) 64-Bit Server VM, 25.131-b11 (1.8, Oracle Corporation)
+
+
+General options:
+  convert *.xlf to *.properties: yes
+  include sources for debugging: yes
+ 
+
+
+Checking path lengths for sources
+Path length checks finished in 0.053 seconds
+ 
+Preparing data context..
+Data context preparation finished in 0.175 seconds
+ 
+Creating Ant build file..
+  Creating output file: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\logs\build.xml
+  Using Java class:     com.sap.tc.glx.BuildFileCreator
+Mapped output path "default" of generator "sap.com~bpem_chain/moininit" is not defined.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+Output folder found.
+Target "Xlf2PropBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Target "ScdlBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Build file creation finished in 0.888 seconds
+ 
+Starting Ant..
+  Using build file:     C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\logs\build.xml
+  Using build target:   build
+  Using Ant version:    1.7.1
+ 
+ScdlBase:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] WARNING: [System.err] [Invoked from com.sap.bc.krn.perf.PerfTimes.internal_TRC(PerfTimes.java:103)]
+  [MOINInit] WARNING: [System.err] PerfTimes : loadNativeLayer: loading jperflib failed. no jperflib in java.library.path
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 8118 milliseconds.
+      [echo] Registering folder: gensrc/extcfg for path: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t\2DDDB51D71A3ED766DE7421FC7511C4E\gensrc\extcfg/
+      [echo] Starting Extension Configuration generator...
+  [gen_scdl] 		[SCDL_GEN] Initializing Scdl Generation...
+  [gen_scdl] 		[SCDL_GEN] Initialization successfully completed.
+  [gen_scdl] 		[SCDL_GEN] Starting retrieval of information from contributors...
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] 		[SCDL_GEN] Information retrieval from contributors successfully completed!
+  [gen_scdl] 		[SCDL_GEN] Starting composite export to SCDL...
+  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t\2DDDB51D71A3ED766DE7421FC7511C4E/scdl_output\META-INF\rd.composite
+  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t\2DDDB51D71A3ED766DE7421FC7511C4E/scdl_output\META-INF\sca-contribution.xml
+  [gen_scdl] 		[SCDL_GEN] Conversion successfully completed!
+     [timer] Extension Configuration generator finished in 13.687 seconds
+ 
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 126 milliseconds.
+ 
+Xlf2PropBase:
+      [echo] Start XLF conversion
+  [xlf2prop] Found 6 XLF files to convert in folder "mc"
+     [timer] XLF conversion finished in 1.126 seconds
+ 
+      [copy] Copying 6 files to C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t\2DDDB51D71A3ED766DE7421FC7511C4E\xlf_out
+ 
+Bpem:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 3131 milliseconds.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Metamodel version validation...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Sanity check is enabled, com.glx.sanity.check system property isn't false.
+  [BpemTask] WSDL Location:src/wsdl/EscalasStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/EnviaApontamentoRdOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/EnviaApontamentoDatasulOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/EnviaApontamentoStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_DatasulHistSituacao.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/SI_FPPSServicoEnviarFuncionarios.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/SI_FPPSServicoHistSituacao.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/rootwsdl_SimpleTimerServices.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default
+  [BpemTask] WSDL Location:src/wsdl/HistSituacao.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/EscalasDatasulOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_DatasulFuncionarios.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/EscalasRdOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/getCustoProfissionalDatasul.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/RetApontamentosDatasulOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/sendCustoProfissionalToECC.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/GetFromDatasul.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SendToECC.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/getHorasXColetoresRD.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SendToRD.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/sendHorasColetoresToECC.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/RetornoApontamentoStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_RDPagtoFolhaProfissionais.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_RdHorasDiferenciadas.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_SendToECCPagtoFolhaProfissionais.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/SI_SendToECCHorasDiferenciadas.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/PoParameter.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/horasXColetoresStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/RetApontamentoRdOut.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/CustoProfissionalStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/ColaboradoresStart.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] WSDL Location:src/wsdl/RD_In.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.SourceVersioner compile(host, artifact) - Generating version IDs for sources...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating rule compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for event definitions is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/colaboradoresstarter.eventdef#E07B8DB9545A2DBFC0CF11E6A77A00059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/custoprofissionalstarter.eventdef#E0BC3D2508F7B0A8C7D811E6C00400059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/enviaapontamentostarter.eventdef#E0B1AF74B65F207B09E511E78D1B00059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/escalasstarter.eventdef#E00EA3B79B2E1DFCC21D11E69DE200059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/fundacpromonfuncionariosstarter.eventdef#E0C851174396BCB09BB111E7BE5D00059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/histsituacao.eventdef#E0E1B8C6C791CEE3E64811E7867900059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/horasdiferenciadasstarter.eventdef#E016575CF39BCDA9F72111E792E500059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/horasxcoletoresstarter.eventdef#E041295604285BE1D66A11E6C94700059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/pagtofolha.eventdef#E0932211A2C695E52F0111E89BBF00059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/retornoapontamentostarter.eventdef#E0EB190777EF0D1F0F6A11E7B14800059A3C7A00 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.colaboradoresstart.types#E03D999B3390B9AFC0CF11E6B7FB00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/colaboradoresstarter.eventdef#E07B8DB9545A2DBFC0CF11E6A77A00059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.custoprofissionalstart.types#E01DFA6EFEA644D3C7D711E6915E00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/custoprofissionalstarter.eventdef#E0BC3D2508F7B0A8C7D811E6C00400059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.enviaapontamentostart.types#E02C978B8DC6B29309E511E78B5B00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/enviaapontamentostarter.eventdef#E0B1AF74B65F207B09E511E78D1B00059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.escalasstart.types#E0356A0416EA0774C21D11E6806B00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/escalasstarter.eventdef#E00EA3B79B2E1DFCC21D11E69DE200059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacpromonfuncionariosstart.types#E02C978B1751E13A9BB111E78BCE00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/fundacpromonfuncionariosstarter.eventdef#E0C851174396BCB09BB111E7BE5D00059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.histsituacaostart.types#E0356A04835069D5E64811E78BD900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/histsituacao.eventdef#E0E1B8C6C791CEE3E64811E7867900059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasdiferenciadasstart.types#E02C978BD8952D21F72111E7BFB200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/horasdiferenciadasstarter.eventdef#E016575CF39BCDA9F72111E792E500059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasxcoletoresstart.types#E0469530E2DF6A26D66911E6C35900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/horasxcoletoresstarter.eventdef#E041295604285BE1D66A11E6C94700059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.pagtofolhastart.types#E04695308D39A7F72F0111E89F4400059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/pagtofolha.eventdef#E0932211A2C695E52F0111E89BBF00059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.retornoapontamentostart.types#E04695309ABF277F0F6911E7BE0C00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/triggers/retornoapontamentostarter.eventdef#E0EB190777EF0D1F0F6A11E7B14800059A3C7A00 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for Tasks is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating data mapping validation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Data mapping validation is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for processes is done
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD55DEB430C0CF11E699E400059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\colaboradores.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD55DEB430C0CF11E699E400059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default/_comp/src/functions/sap.com/bpem/glx/built-in/principal/getprincipals.function#481F3B33968275A41AC311DDC9ED0018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default/_comp/src/functions/sap.com/bpem/glx/built-in/principal/getprincipals.function#481F3B33968004A11AC311DDAA030018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0DCF6CDE43D5A7AD98D11E6A8E300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530D055E8D2C6B511E6A70600059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/rd.la.logicalis.com.web-service.funcionarios.types#E012BF1EBBCB3A35E29911E6929900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD562413E1C0CF11E6B62400059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD5630F058C0CF11E683DB00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD5618C9CDC0CF11E690BE00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530D0568087C6B511E696E700059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530D055E8D2C6B511E6A70600059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0DCF6CD2EF5BD2ED98E11E6A67500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530D055E8D2C6B511E6A70600059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/sap-com&cldocument&clsap&clrfc&clfunctions.types#E04695306CCACA86C6B611E6AD5C00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0DCF6CDE40172BED98D11E68E1300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD561968FBC0CF11E6CFCD00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0BF539CBF67DDB8C0D411E6AD9C00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0DCF6CD2ED1F6D2D98E11E6997000059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD5617DA6AC0CF11E6AE1500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/colaboradores.bpmn#E0116CBD55DEB430C0CF11E699E400059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\custoprofissionais.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A854D1BC7D611E6966500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E01DFA6E24F37519C7DD11E6B34700059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E01DFA6E98D5731EC7DC11E6A39700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.custoprofissional.types#E0E14F867D4FB4C6F49311E68C5100059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/sap-com&cldocument&clsap&clrfc&clfunctions.types#E04695303CC98E6A311311E8A9CA00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A817901C7D611E6825700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A83B46DC7D611E6831800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9AA0C7F0C7D611E6A83000059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9ABC2B71C7D611E6854C00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0EE4DB2B818BD1DC7D611E6983D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/custoprofissionais.bpmn#E0C792CE9A0DF89CC7D611E6A92C00059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419AFCC3EF09E411E7CB7800059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\enviaapontamentos.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419AFCC3EF09E411E7CB7800059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.enviaapontamento.types#E02C978B48496C5D09E611E7ABD700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419B7DF9F209E411E7AA9200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E012BF1E6E80AB4C2A2511E7C06200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419B60B3B009E411E792B700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419B62D97C09E411E7CEEC00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E000054CB94E0D5E09E411E7C2F600059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419B94C7D009E411E7957D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E012BF1E6E7F6DC72A2511E7A38C00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.enviaapontamento.types#E02C978B3300774709E611E7AF0200059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.enviaapontamento.types#E02C978B3300DC3709E611E7918A00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419B6456BF09E411E7B62200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/enviaapontamentos.bpmn#E0B918419AFCC3EF09E411E7CB7800059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A6462671C21D11E6B5AB00059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\escalas.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A6462671C21D11E6B5AB00059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.escalas.types#E02C978B01AAC0ECC23A11E6938500059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.escalas.types#E02C978B01AB34ACC23A11E6A42D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A69D3A8DC21D11E6CE2400059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A6BE31D4C21D11E6C98100059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.escalas.types#E046953026BE6216C6B511E6C5E300059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.escalas.types#E046953026BEF98BC6B511E6CF2600059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A69C2C43C21D11E6A74400059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E016575CE9E3A189C25E11E6882600059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A6ADA864C21D11E692C800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A69ACA37C21D11E69A5500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/escalas.bpmn#E0B91841A6462671C21D11E6B5AB00059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B140AFE6A9A6311E7A14200059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\fundacaopromonfunc.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B140AFE6A9A6311E7A14200059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B14DBB8939A6311E78B6900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&clfundacao&clwsfundacaopromon.types#E02C978B6300C6ABA32111E7909700059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarfuncionarios.types#E0E14F86EA710B249A6511E7851D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B151653869A6311E7BF8000059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarfuncionarios.types#E0E14F86EA710B249A6511E7851D00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarfuncionariosresponse.types#E0E14F866CCB3CDC9A6611E7C12800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B14FB0EB39A6311E7AF4900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B14D7B8499A6311E7965300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E046953042EC93269A6511E7AB7F00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B14DE040C9A6311E78F6B00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundacaopromonfunc.bpmn#E02C978B140AFE6A9A6311E7A14200059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D26C269BE64611E7A02A00059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\fundpromon_histsituacao.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D26C269BE64611E7A02A00059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D3C4E2AFE64611E7B0E800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0E1B8C61C96AC85E64711E7CFFE00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarhistsituacao.types#E0356A045F85556DE64711E7B6A200059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarhistsituacao.types#E0356A0471BD6F8FE64711E790EA00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D36BD974E64611E7BCAC00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D3679A76E64611E7C69000059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D36E927DE64611E7ADAC00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D39B991CE64611E78B3900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&clfundacao&clwsfundacaopromon.types#E0356A045F8703D3E64711E7C70100059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.fundacaoenviarhistsituacao.types#E0356A045F85556DE64711E7B6A200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/fundpromon_histsituacao.bpmn#E0469530D26C269BE64611E7A02A00059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E046953039BD0028F71E11E788E600059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\horasdiferenciadas.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E046953039BD0028F71E11E788E600059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E04695303A9E6092F71E11E793DF00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E02C978B9DC61606F71F11E7A23E00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/sap-com&cldocument&clsap&clrfc&clfunctions.types#E02C978BB3B8404FF71F11E78C2300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E016575C54F85B53F72011E7AA1A00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E04695303ABC09A9F71E11E788B900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E04695303A9C5540F71E11E78B6E00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E04695303A98FFA8F71E11E7C14F00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E04695303AE5EB2AF71E11E795F700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E02C978B9DC4C08EF71F11E7A8DC00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E02C978B9DC61606F71F11E7A23E00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasdiferenciadas.bpmn#E046953039BD0028F71E11E788E600059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE35CA3C48D66A11E6A6C500059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\horasxcoletores.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE35CA3C48D66A11E6A6C500059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/substring.function#481F3B339659DF041AC311DD94990018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/substring.function#481F3B33965524171AC311DD8CC30018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE3625DD82D66A11E685CD00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-days-to-datetime.function#481F3B2C922DC1861AC311DDBB3A0018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/add-days-to-datetime.function#481F3B2C92244BA01AC311DDAFE10018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.poparameters.types#E0469530C3B3A1D2F31D11E690F400059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.poparameters.types#E0469530C3B4FE03F31D11E68C4200059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.poparameters.types#E0469530C39A406AF31D11E6A30E00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.poparameters.types#E0469530C3B46512F31D11E6807300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E016575CAAB8F9FCFA3011E6B17300059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/datetime.function#481F3B2C928138B61AC311DD84600018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/datetime.function#481F3B2C927EC7B01AC311DDB4A00018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasxcoletores.types#E0469530729A67A5D66A11E692DA00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasxcoletores.types#E0469530729B5276D66A11E69FD800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/matches.function#481F3B3296124EBA1AC311DDCBE40018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/matches.function#481F3B32961004C51AC311DDA3D80018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/datetime-less-than.function#481F3B2D92CFF4FA1AC311DD9CB50018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/datetime-less-than.function#481F3B2D92CD83F61AC311DD8E090018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0EE4DB2916194C7D66A11E6B3CD00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE365212B0D66A11E69ED800059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE363D163DD66A11E69CF900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string.function#481F3B339633B9681AC311DD8DDA0018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string.function#481F3B33963148651AC311DDB17D0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE3627A92AD66A11E6A64D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasxcoletores.types#E0469530E48C0042F32411E6843700059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.horasxcoletores.types#E0469530E48D2BBDF32411E6A55700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/current-datetime.function#481F3B2C927A0CC01AC311DDC4830018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/date-time/current-datetime.function#481F3B2C9277C2D21AC311DD93AA0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE3628E551D66A11E6B42200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/horasxcoletores.bpmn#E0C792CE35CA3C48D66A11E6A6C500059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D2B27B3E2D1511E8CD7600059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\pagamentofolha.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D2B27B3E2D1511E8CD7600059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D351CE342D1511E8AB3500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D37F98542D1511E8CBAB00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E0EE4DB203C19EF72EFB11E8A16200059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530A47345682EF511E8A86100059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/sap-com&cldocument&clsap&clrfc&clfunctions.types#E0469530B48D88AE2EF511E8B19900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D34EB0552D1511E8B8B100059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D3A6627D2D1511E8A88500059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530A4756F582EF511E8C09000059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/totvs&clws1&cllogicalis&clcolaboradoresservice.types#E0469530A47345682EF511E8A86100059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D3540FD72D1511E8C4D700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/pagamentofolha.bpmn#E01F0466D2B27B3E2D1511E8CD7600059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A763D87AA0E9E11E799FB00059A3C7A00 (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\src\bpmn\retornoapontamentos.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A763D87AA0E9E11E799FB00059A3C7A00 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A76FB13BE0E9E11E79BDD00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.retornoapontamento.types#E04695300734DAC70F6A11E7B43900059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.retornoapontamento.types#E04695300735675B0F6A11E79C7400059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.retornoapontamento.types#E0469530E7D758580F6911E7837A00059A3C7A00 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/rep/wsdl/promon.com.br.retornoapontamento.types#E0469530E7D689F60F6911E7A18E00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A77192A090E9E11E79F9700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A76F5EC040E9E11E7AF1700059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A7737DA740E9E11E782C900059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A76F8D26D0E9E11E7A95100059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E016575C843D9EEE0F6911E7A42D00059A3C7A00 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/promon.com.br/rd/_comp/src/bpmn/retornoapontamentos.bpmn#E007956A763D87AA0E9E11E799FB00059A3C7A00 (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'Main' ...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_Main_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] WS Provisioning post processing started for %d artifacts found.
+  [BpemTask] 1
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/ColaboradoresStarter
+  [BpemTask] StartColaboradores
+  [BpemTask] http://promon.com.br/ColaboradoresStart/
+  [BpemTask] ColaboradoresStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/CustoProfissionalStarter
+  [BpemTask] StartCustoProfissional
+  [BpemTask] http://promon.com.br/CustoProfissionalStart/
+  [BpemTask] CustoProfissionalStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/EnviaApontamentoStarter
+  [BpemTask] StartEnviaApontamento
+  [BpemTask] http://promon.com.br/EnviaApontamentoStart/
+  [BpemTask] EnviaApontamentoStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/EscalasStarter
+  [BpemTask] StartEscalas
+  [BpemTask] http://promon.com.br/EscalasStart/
+  [BpemTask] EscalasStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/FundacPromonFuncionariosStarter
+  [BpemTask] StartFuncionarios
+  [BpemTask] http://promon.com.br/FundacPromonFuncionariosStart/
+  [BpemTask] FundacPromonFuncionariosStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/HistSituacao
+  [BpemTask] StartHistSituacao
+  [BpemTask] http://promon.com.br/HistSituacaoStart/
+  [BpemTask] HistSituacaoStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/HorasDiferenciadasStarter
+  [BpemTask] StartHorasDiferenciadas
+  [BpemTask] http://promon.com.br/HorasDiferenciadasStart/
+  [BpemTask] HorasDiferenciadasStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/HorasXColetoresStarter
+  [BpemTask] StartHorasXColetores
+  [BpemTask] http://promon.com.br/HorasXColetoresStart/
+  [BpemTask] HorasXColetoresStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/PagtoFolha
+  [BpemTask] StartPagtoFolha
+  [BpemTask] http://promon.com.br/PagtoFolhaStart/
+  [BpemTask] PagtoFolhaStart
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] promon.com.br/rd/RetornoApontamentoStarter
+  [BpemTask] StartRetornoApontamento
+  [BpemTask] http://promon.com.br/RetornoApontamentoStart/
+  [BpemTask] RetornoApontamentoStart
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/CustoProfissionalStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FCustoProfissionalStarter/src/wsdl/CustoProfissionalStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/EscalasStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FEscalasStarter/src/wsdl/EscalasStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/horasXColetoresStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FHorasXColetoresStarter/src/wsdl/horasXColetoresStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/ColaboradoresStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FColaboradoresStarter/src/wsdl/ColaboradoresStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/HorasDiferenciadas.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FHorasDiferenciadasStarter/src/wsdl/HorasDiferenciadas.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/FundacPromonFuncionariosStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FFundacPromonFuncionariosStarter/src/wsdl/FundacPromonFuncionariosStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/EnviaApontamentoStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FEnviaApontamentoStarter/src/wsdl/EnviaApontamentoStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/HistSituacao.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FHistSituacao/src/wsdl/HistSituacao.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/PagtoFolhaStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FPagtoFolha/src/wsdl/PagtoFolhaStart.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/RetornoApontamentoStart.wsdl
+  [BpemTask] META-INF/wsdl/promoncombr2Frd2FRetornoApontamentoStarter/src/wsdl/RetornoApontamentoStart.wsdl
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/CustoProfissionalStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/EscalasStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/HorasXColetoresStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/ColaboradoresStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/HorasDiferenciadasStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/FundacPromonFuncionariosStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/EnviaApontamentoStarter
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/HistSituacao
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/PagtoFolha
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/promoncombr/rd/RetornoApontamentoStarter
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx\promon.com.br~rd.wsar archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyMcArchive(File publicFolder) -Including Mass Configuration archive into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlFiles(File scdlFolder) - Including SCDL files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/rd.composite
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/sca-contribution.xml
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - Including SCDL globalization files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/504b1b7b-3667-471e-9d9c-88e7f4023a27.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/Business or Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/Business User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/d1959553-3dcb-4f3a-89ff-2ceb4249366e.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/No Authentication.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx/Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA execute(name, vendor, location, version, srcDir) -Generating SDA...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx\promon.com.br~rd.bpem archive is generated
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 167 milliseconds.
+    [delete] Deleting directory C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\ctx
+    [delete] Deleting: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\deploy\sda-dd.xml
+ 
+createPublicParts:
+  [pppacker] Packing public part 'def_cmp'
+  [pppacker] DC being built: rd
+  [pppacker] Searching for entity: mc.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  13 files for entity mc (Model Folder Tree)
+  [pppacker] DC being built: rd
+  [pppacker] Searching for entity: rep.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  55 files for entity rep (Model Folder Tree)
+  [pppacker] DC being built: rd
+  [pppacker] Searching for entity: src.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  93 files for entity src (Model Folder Tree)
+  [pppacker] Packed 3 entities for public part 'def_cmp'
+     [timer] Packing of public part 'def_cmp' finished in 2.056 seconds
+ 
+ 
+build:
+ 
+Ant runtime 1 minute 35.807 seconds
+ 
+Ant build finished OK
+MOIN forced shutdown initiated.
+ 
+Build plugin finished at 2018-03-26 13:37:05 GMT-03:00 (BRT)
+Total build plugin runtime: 1 minute 39.689 seconds
+ 
+Build finished with WARNING
+
+==== Post-Processing ====   started at 2018-03-26 13:37:05.535 BRT
+Comparison of previous and actual build results took: 0.673 seconds
+
+Copy the build results 
+  from: C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\t2\2DDDB51D71A3ED766DE7421FC7511C4E\default\
+  to:   C:\Users\marce\OneDrive\DEV\NWDS75.jdi\0\DCs\promon.com.br\rd\_comp\gen\default\

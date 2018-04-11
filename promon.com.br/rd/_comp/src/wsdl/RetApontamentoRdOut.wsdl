@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/RetornoApontamento" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="RetApontamentoRdOut" targetNamespace="http://promon.com.br/RetornoApontamento">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>3c1b40ee0a8a11e791dc0000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1489697464821"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="5bdc7b5e832a3809a0f6f6e5f73e287a"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="RetApontamentoRdOut">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="RetApontamentoRdResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">RetApontamentoRdResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/RetornoApontamento</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/RetornoApontamento</ifw:technicalNamespace>
+        <ifw:VersionID>888219b10a8911e7b8210000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/RetornoApontamento</ifw:xmlNamespace>
+        <ifw:dataType name="RetApontamentoRdResponse" namespace="http://promon.com.br/RetornoApontamento" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=RetApontamentoRdResponse~namespace=http://promon.com.br/RetornoApontamento~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+      <ifw:message name="RetApontamentoRdRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">RetApontamentoRdRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/RetornoApontamento</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/RetornoApontamento</ifw:technicalNamespace>
+        <ifw:VersionID>60b052990a8911e7b2160000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/RetornoApontamento</ifw:xmlNamespace>
+        <ifw:dataType name="RetApontamentoRdRequest" namespace="http://promon.com.br/RetornoApontamento" swcvId="5910b6a0a67911e69345ef270ae80122" uri="name=RetApontamentoRdRequest~namespace=http://promon.com.br/RetornoApontamento~swcvId=5910b6a0a67911e69345ef270ae80122"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>5910b6a0a67911e69345ef270ae80122</ifw:guid>
+        <ifw:name>RD, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_5bdc7b5e832a3809a0f6f6e5f73e287a_ifmmessif</name>
+        <namespace>http://promon.com.br/RetornoApontamento</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_RetApontamentoRdOut"/>
+  <wsdl:types>
+    <xsd:schema xmlns="http://promon.com.br/RetornoApontamento" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/RetornoApontamento">
+      <xsd:element name="RetApontamentoRdResponse" type="RetApontamentoRdResponse"/>
+      <xsd:element name="RetApontamentoRdRequest" type="RetApontamentoRdRequest"/>
+      <xsd:complexType name="RetApontamentoRdResponse">
+        <xsd:sequence>
+          <xsd:element name="divergencias">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="receberDivergenciasResult" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="msgError" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="RetApontamentoRdRequest">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="divergencias">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="registro" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="idBatida" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="data" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="hora" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="codigoObservacao" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="descricaoObservacao" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="RetApontamentoRdRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:RetApontamentoRdRequest" name="RetApontamentoRdRequest"/>
+  </wsdl:message>
+  <wsdl:message name="RetApontamentoRdResponse">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:RetApontamentoRdResponse" name="RetApontamentoRdResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="RetApontamentoRdOut">
+    <wsdl:documentation/>
+    <wsdl:operation name="RetApontamentoRdOut">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_RetApontamentoRdOut"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:RetApontamentoRdRequest"/>
+      <wsdl:output message="p1:RetApontamentoRdResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RetApontamentoRdOutBinding" type="p1:RetApontamentoRdOut">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RetApontamentoRdOut">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

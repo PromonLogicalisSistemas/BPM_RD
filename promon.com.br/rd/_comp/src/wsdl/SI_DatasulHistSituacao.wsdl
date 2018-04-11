@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="http://promon.com.br/FundacaoEnviarHistSituacao" xmlns:p2="urn:totvs:ws1:fundacao:wsFundacaoPromon" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SI_DatasulHistSituacao" targetNamespace="http://promon.com.br/FundacaoEnviarHistSituacao">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>7ce4fce1ceee11e789f90000006543a2</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="egushiken"/>
+      <changed by="egushiken" on="1511290946676"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="71ebecf929fc36acbe01989abd88bc40"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="SI_DatasulHistSituacao">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState>R</objectState>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="wsFundacaoPromonSituacoes">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">wsFundacaoPromonSituacoes</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/FundacaoEnviarHistSituacao</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/FundacaoEnviarHistSituacao</ifw:technicalNamespace>
+        <ifw:VersionID>6643c46ac61911e7c3ee0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>urn:totvs:ws1:fundacao:wsFundacaoPromon</ifw:xmlNamespace>
+        <ifw:dataType name="DT_DatasulFuncionariosHistSituacoes" namespace="http://promon.com.br/FundacaoEnviarHistSituacao" swcvId="4183bc706c7711e7c6a0c72b0a37be44" uri="name=DT_DatasulFuncionariosHistSituacoes~namespace=http://promon.com.br/FundacaoEnviarHistSituacao~swcvId=4183bc706c7711e7c6a0c72b0a37be44"/>
+      </ifw:message>
+      <ifw:message name="MT_FPPSWSAEnviarHistSituacaoRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">MT_FPPSWSAEnviarHistSituacaoRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">http://promon.com.br/FundacaoEnviarHistSituacao</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>http://promon.com.br/FundacaoEnviarHistSituacao</ifw:technicalNamespace>
+        <ifw:VersionID>add73189c64411e7883f0000006543a2</ifw:VersionID>
+        <ifw:xmlNamespace>http://promon.com.br/FundacaoEnviarHistSituacao</ifw:xmlNamespace>
+        <ifw:dataType name="FPPSServicoEnviarHistSituacao" namespace="http://promon.com.br/FundacaoEnviarHistSituacao" swcvId="4183bc706c7711e7c6a0c72b0a37be44" uri="name=FPPSServicoEnviarHistSituacao~namespace=http://promon.com.br/FundacaoEnviarHistSituacao~swcvId=4183bc706c7711e7c6a0c72b0a37be44"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>4183bc706c7711e7c6a0c72b0a37be44</ifw:guid>
+        <ifw:name>FUNDACAO, 2.0 of promon.com.br</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_71ebecf929fc36acbe01989abd88bc40_ifmmessif</name>
+        <namespace>http://promon.com.br/FundacaoEnviarHistSituacao</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_SI_DatasulHistSituacao"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:totvs:ws1:fundacao:wsFundacaoPromon" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:totvs:ws1:fundacao:wsFundacaoPromon">
+      <xsd:import namespace="http://promon.com.br/FundacaoEnviarHistSituacao"/>
+      <xsd:element name="wsFundacaoPromonSituacoes" type="p1:DT_DatasulFuncionariosHistSituacoes"/>
+    </xsd:schema>
+    <xsd:schema xmlns="http://promon.com.br/FundacaoEnviarHistSituacao" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://promon.com.br/FundacaoEnviarHistSituacao">
+      <xsd:element name="MT_FPPSWSAEnviarHistSituacaoRequest" type="FPPSServicoEnviarHistSituacao"/>
+      <xsd:simpleType name="DT_DatasulFuncionariosHistSituacoes">
+        <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <xsd:complexType name="FPPSServicoEnviarHistSituacao">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="UsuarioWS" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="SenhaWS" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="dadosFuncionariosCSV" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="wsFundacaoPromonSituacoes">
+    <wsdl:documentation/>
+    <wsdl:part element="p2:wsFundacaoPromonSituacoes" name="wsFundacaoPromonSituacoes"/>
+  </wsdl:message>
+  <wsdl:message name="MT_FPPSWSAEnviarHistSituacaoRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:MT_FPPSWSAEnviarHistSituacaoRequest" name="MT_FPPSWSAEnviarHistSituacaoRequest"/>
+  </wsdl:message>
+  <wsdl:portType name="SI_DatasulHistSituacao">
+    <wsdl:documentation/>
+    <wsdl:operation name="SI_DatasulHistSituacao">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_DatasulHistSituacao"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:wsFundacaoPromonSituacoes"/>
+      <wsdl:output message="p1:MT_FPPSWSAEnviarHistSituacaoRequest"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_DatasulHistSituacaoBinding" type="p1:SI_DatasulHistSituacao">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SI_DatasulHistSituacao">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>
